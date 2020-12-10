@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>基本操作</title>
+</head>
+<body>
+	<!--
+	Element节点的一些属性
+		innerHTML(会覆盖原来的值)
+		innerText(火狐不兼容)/tetContent(老版本IE不好使)
+	Element节点的一些方法
+		ele.setAttribute()
+		ele.getAttribute()
+
+	查看滚动条的滚动距离
+		window.pageXOffset/pageYOffset(IE8及IE8以下不兼容)
+		document.body/documentElement.scrollLeft/scrollTop
+		兼容性比较混乱，用时取两个值相加，因为不可能存在两个同时有值
+	封装兼容性方法，求滚动轮滚动getScrollOffset()
+	-->
+
+	<div>123
+		<span></span>
+	</div>
+	<script>
+		var div = document.getElementsByTagName('div')[0]
+		div.innerHTML = '这是一个div'
+		div.setAttribute("class", 'only')
+	</script>
+</body>
+</html>

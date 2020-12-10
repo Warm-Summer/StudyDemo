@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>dom3</title>
+</head>
+<body>
+	<!--
+	document:是一个document文档
+	Document：是一个document构造函数
+	document-> HTMLDocument
+	document ===> HTMLDocument.prototype ===> Document.prototype
+		HTMLDocument.prototype = {
+			__proto__ : Document.prototype
+		}
+
+
+	Node ==> Element ===>  HTMLElement ===> {
+											HTMLHeadElement
+											HTMLBodyElement
+											HTMLTitleElement
+											HTMLParagraphElement
+											HTMLInputElement
+											HTMLTableELement
+											}
+	document.__proto__.__proto__.__proto__   // Node()
+
+
+
+	1.getElementById方法定义在Doucment.prototype上，即Element节点上不能使用
+	2.getElementByName方法定义在HTMLDocument.prototype上，即非html中的document蹦年使用（xml document，Element）
+	3.getElementByTagName方法定义在Document.prorotype和Element.prorotype上
+		
+		<div>
+		<span>1</span>
+		</div>
+		<div></div>
+
+		var div = document.getElementsByTagName('div')[0]
+		var span = div.getElementsByTagName('span')[0]
+		console.log(span)//<span>1</span>
+
+
+	4.HTMLDocument.prototype定义了一些常用的属性，body head分别指代HTML文档中的<body><hrad>标签
+
+		document.body
+		document.head
+
+
+	5.Document.prototype上定义了documentElement属性，指代文档的根元素，在HTML文档中，他总是指代<html>元素
+	
+		document.documentElement ==> html文档
+
+	6.getElementByClassName，querySelector，querySelectorAll在Document.prototype，Element.prototype类中均有定义
+
+
+	-->
+
+	<div>
+		<span>1</span>
+	</div>
+	<div></div>
+	<script>
+		Document.prototype.abc = "1";
+		HTMLDocument.prototype.abc = "2";
+		console.log(document.abc);//"2"
+
+		var div = document.getElementsByTagName('div')[0]
+		var span = div.getElementsByTagName('span')[0]
+		console.log(span)//<span>1</span>
+	</script>
+</body>
+</html>

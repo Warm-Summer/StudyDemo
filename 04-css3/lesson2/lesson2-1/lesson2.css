@@ -1,0 +1,19 @@
+/* E+F */
+/* 下一个满足条件的兄弟元素节点 */
+div + .demo {
+    background-color: red;
+}
+
+/* E ~ F */
+div ~ p {
+    background-color: green;
+}
+
+/* 并列选择器 */
+div[data] {
+    background-color: pink;
+}
+
+div[data | a] {
+    background-color: hotpink;
+}

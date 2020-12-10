@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #oDiv {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        #btn {
+            margin-top: 120px;
+        }
+    </style>
+</head>
+<body>
+    <div id="oDiv"></div>
+    <button id="btn">运动</button>
+    <script>
+        var oDiv = document.getElementById("oDiv")
+        var btn = document.getElementById("btn")
+        btn.onclick = function () {
+            var iSpeed = 10;
+            setInterval(function () {
+                oDiv.style.left = oDiv.offsetLeft + iSpeed + 'px';
+            },30)
+        }
+    </script>
+</body>
+</html>

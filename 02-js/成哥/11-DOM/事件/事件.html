@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>事件</title>
+	<style>
+		div {
+			width: 100px;
+			height: 100px;
+			background-color: red;
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+	<ul>
+		<li>a</li>
+		<li>a</li>
+		<li>a</li>
+		<li>a</li>
+	</ul>
+
+ 
+
+	<script>
+		var div = document.getElementsByTagName('div')[0]
+		// div.onclick = function () {
+		// 	console.log('a')
+		// }
+
+		div.addEventListener('click', function () {
+			console.log('a')
+		}, false)
+
+		div.addEventListener('click', function () {
+			console.log('a')
+		}, false)
+
+		var liCol = document.getElementsByTagName('li')
+		var len = liCol.length
+
+		for(var i = 0; i < len; i++) {
+			(function (i) {
+				liCol[i].addEventListener('click', function() {
+					console.log(i)
+				}, false)
+			})(i)
+		}
+
+
+
+		function addEvent(elem,type,handle) {
+			if(elem.addEventListener) {
+				elem.addEventListener(type, handle, false)
+			}else if (elem.attachEvent){
+				elem.attachEvent('on'+type,function () {
+					handle.call(elem)
+				})
+			}else {
+				elem['on'+type] = handle;
+			}
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+        cookie适合保持一种状态，不适合做本地化存储，如果要进行本地化存储，则使用web storage
+        web Storage
+
+        LocalStorage：本地存储，浏览器或者页面关掉的时候，数据还是存在的；
+        sessionStorage:会话存储，存储的数据只在会话的时候，会话结束后就会失效，在当前窗口下有效
+
+        1.length:本地存储数据的数量
+        2.key():通过索引找到存储的数据(自己按顺序存储数据后，浏览器会有所改变，所以有时候会找不到)
+        3.getItem（）：通过键名取到本地存储的数据
+        4.setItem（）: 设置一个本地存储数据
+        5.removeItem():删除一个本地存储数据
+        6.clear():清空本地存储数据
+        */
+
+        console.dir(Storage)
+        console.log(localStorage,sessionStorage)
+        // 存储数量
+        console.log(localStorage.length)
+
+        //存储
+        localStorage.setItem('name','kana')
+        localStorage.setItem('age','18')
+        localStorage.setItem('sex','male')
+
+        var color = ["red","green"]//如果是对象
+        var color = {"c1":"red","c2":"green"}
+        //localStorage.setItem('color',color)//这边则显示[object,object]
+        localStorage.setItem('color',JSON.stringify(color))//如果想显示，则使用JSON去转换
+        //获取
+        console.log(JSON.parse(localStorage.getItem('color')))
+        //移除
+        localStorage.removeItem('color')
+        //全部清空
+        //localStorage.clear();
+
+    </script>
+</body>
+</html>

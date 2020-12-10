@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery事件</title>
+    <style>
+        button {
+            color: #ffffff;
+            background-color: hotpink;
+            outline: none;
+            line-height: 30px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn1">事件名称函数</button>
+    <button id="btn2">通过on添加</button>
+    <div id="btn3">
+        <h2>标题</h2>
+        <p>段落</p>
+    </div>
+    <div id="btn4">
+        <button>通过one添加</button>
+    </div>
+    <button id="btn5">解除事件</button>
+
+
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script>
+        //绑定事件1：通过事件名称函数
+        $('#btn1').mouseover(function () {
+            $(this).css('background','orange');
+        }).mouseout(function () {
+            $(this).css('background','grey')
+        })
+
+
+        //绑定事件2：通过on添加,可以传递四个参数，可以添加多个事件
+        $('#btn2').on('click',function (){
+            $(this).css('background','blue')
+        });
+        $('#btn2').on('click',{name:'kaivon'},function (event) {
+            console.log(event.data.name)
+        })
+        $('#btn3').on('click','h2',{color: 'red'},function (event) {
+            $(this).css('border','1px solid '+event.data.color)
+        })
+        //on可以添加多个事件
+        $('#btn2').on({
+            mouseover:function () {
+                $(this).css('background','pink')
+            },
+            mouseout:function (){
+                $(this).css('background','cyan')
+            }
+        })
+        //绑定事件3：通过one()绑定事件,仅仅只能发生一次，一次过后就会被删除
+        $('#btn4').one('click','button',{color: 'purple'},function (event) {
+            $(this).css('background',event.data.color);
+            console.log('只会打印一次')
+        })
+        // 解除事件:off()
+        $('#btn5').click(function () {
+            $('#btn1').off();//没有参数，会把所有的事件解除
+            $('#btn1').off('mouseover');
+        })
+    </script>
+</body>
+</html>

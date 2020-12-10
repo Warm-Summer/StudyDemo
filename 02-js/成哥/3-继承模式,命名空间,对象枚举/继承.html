@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>继承发展史</title>
+</head>
+<body>
+	<!-- 所有的函数都会有原型 -->
+	<script>
+		// 传统形式
+		Grand.prototype.lastName = 'Hao';
+		function Grand () {
+
+		}
+		var grand = new Grand();
+
+		Father.prototype = grand;
+		function Father () {
+
+		}
+		var father = new Father();
+
+		Son.prototype = father
+		function Son () {
+
+		}
+		var son = new Son();
+
+		//借用构造函数
+		function Perosn (name,age,sex) {
+			this.name = name;
+			this.age = age;
+			this.sex = sex;
+		}
+		var person = new Person()
+
+		function Son (this,name, age, sex) {
+			this.name = naem;
+			this.age = age;
+			this.sex = sex
+		}
+		var son = new Son()
+	</script>
+</body>
+</html>

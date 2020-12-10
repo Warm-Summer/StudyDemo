@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>arguments
+	</title>
+</head>
+<body>
+	<!-- 在es5标准模式中，callee和caller无法使用 -->
+	<script>
+		var num = (function (n) {
+			if( n == 1) {
+				return 1;
+			}
+			return n * arguments.callee(n - 1)
+			} (10))
+
+		function test () {
+			console.log(arguments.callee)
+			function demo () {
+				console.log(arguments.callee)//函数自身
+			}
+			demo()
+		}
+		test()
+
+
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/*
+div {
+	/*columns: 300px 4;*/
+	column-count: 5;/*分为5列*/
+	column-gap: 30px; /*空隙*/
+	column-rule: 2px solid red; /*分割线显示*/
+}
+*/
+/*
+p {
+	column-span: all; /*贯穿*/ 
+	margin: 10px 0;
+}
+*/
+
+div {
+	width: 400px;
+	height: 500px;
+	border: 1px solid #f10;
+}
+
+.content {
+	column-gap: 30px;
+	column-width: 400px;
+}

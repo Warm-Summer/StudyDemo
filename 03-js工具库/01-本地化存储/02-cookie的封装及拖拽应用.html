@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cookie的封装</title>
+    <style>
+        #box {
+            width: 100px;
+            height: 100px;
+            background-color: pink;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    <script>
+        var manageCookie = {
+            //设置cookie
+            set:function (name,value,date) {
+                //expires   date:要求用户传入的是一个时间节点（这里函数一般传入的是天书）
+                /*
+                var endDate = new Date();
+                endDate.setDate(endDate.getDate() + endDate)
+                document.cookie = name + "=" + value + '; expires=' + endDate
+                */
+
+                //max-age
+                document.cookie = name + "=" + value + "; max-age=" + date
+
+            },
+            //移除cookie
+            remove:function (name) {
+                this.set(name, '', 0)
+            },
+            //获取cookie
+            get:function (right) {
+                var cookies = document.cookie.split(";");
+                for(var i = 0; i < cookies.length; i++) {
+                    var item = cookies[i].split('=');
+                    if(item[0] == right) {
+                        return item[i]
+                    }
+                }
+            }
+        }
+        // manageCookie.set('left',200)
+        manageCookie.set('right',250,1200)
+        manageCookie.remove('fp-right')
+        manageCookie.remove('color')
+        manageCookie.remove('name')
+        console.log(manageCookie.get('right'))
+
+        var drag =  {
+            init: function (dom) {
+                this.dom = dom;
+                this.bindEvent()
+            },
+            bindEvent:function (e) {
+                document.onmousemove = this.mouseMove.bind(this)
+                document.onmouseup = this.mouseUp.bind(this)
+
+                this.disX = e.clientX - this.dom.offsetLeft;
+                this.disY = e.clientY - this.dom.offsetTop;
+            },
+            mouseMove: function (e) {
+                this.newLeft = e.clientX - this.disX
+                this.newTop = e.clientY - this.disY
+
+                this.dom.style.left = this.newLeft + "px";
+                this.dom.style.top = this.newTop + "px";
+            },
+            onmouseup: function () {
+                document.onmousemove = null;
+                document.onmouseup = null;
+            }
+        }
+        drag.init(document.getElementById('box'))
+    </script>
+</body>
+</html>

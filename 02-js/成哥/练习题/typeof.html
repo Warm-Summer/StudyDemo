@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>typeof</title>
+</head>
+<body>
+	<!-- 
+		type能返回的结果：
+
+		string,number,boolean,undefined,object,function 
+
+	-->
+	<script>
+		var obj = {};
+		console.log(typeof 3)//number
+		console.log(typeof 'string')//string
+		console.log(typeof false)//boolean
+		console.log(typeof Function)//function
+		console.log(typeof undefined)//undefined
+		console.log(typeof null)//object
+		console.log(typeof Object)//function
+		console.log(typeof obj)//object
+
+
+		var f = (
+
+				function f () {
+					return "1";
+				},
+				function g () {
+					return 2;
+				}
+			)();
+			console.log(typeof f);//number
+
+
+		var x = 1;
+		if (function f() {}) {//函数放在框号中，找不到
+			x += typeof f;// 1 + "undefined"
+		}
+		console.log(x)//1undefined
+
+		console.log(undefined == null) //true
+		console.log(undefined === null)//false
+		console.log(isNaN('100'))//false隐式类型转换，先转为数字，再进行判断
+		function myIsNaN (num) {
+			var ret = new Number(num)
+			ret += ""
+			if(ret == "NaN") {
+				return true
+			}else {
+				return false
+			}
+		}
+		console.log(parseInt("1a") == 1)//true
+	</script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var xhr = null;
+        if(window.XMLHttpRequest) {
+            xhr = new XMLHttpRequest();
+        }else {
+            xhr = new ActiveXObject("Microsoft.XMLHttp")
+        }
+        // console.log(xhr.readyState);
+        xhr.open("get","http://developer.duyiedu.com/edu/testAjaxCrossOrigin",false);//打开一个链接
+        // console.log(xhr.readyState);
+        
+        xhr.onreadystatechange = function () {
+            //readyState == 4 表示请求已完成，已经接收到数据
+            //status == 200 网路请求，结果都会有一个状态码，来表示这个请求是否正常
+            //http状态码
+            //2**表示成功
+            //3**表示重定向(原来的地方没人了，但是会有邻居告诉)
+            // 4**表示客户端错误，404页面没找到
+            //5**表示服务端错误
+            if(xhr.readyState == 4 && xhr.status == 200){
+                console.log(xhr.responseText)
+            }
+        }
+        xhr.send();
+        console.log("===")
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

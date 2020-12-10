@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>原型2</title>
+</head>
+<body>
+    <script>
+        Person.prototype.name = 'sunny'
+        function Person () {
+
+        }
+        Person.prototype = {
+            name:"summer"s
+        }
+        var person = new Person()
+        console.log(person.name)
+  
+      // Person.prototype.name = 'summer'
+
+        // Person.prototype = {
+        //     name:"summer"
+        // }
+        // console.log(person.name)
+        // Person.prototype = {name:'a'}
+        // __proto__ = Person.prototype;
+        // Person.prototype = {name:"b"}
+            function Foo(){
+                var i = 0;
+                return function () {
+                    console.log(i++)
+                }
+            }
+
+            var f1 = Foo()
+            var f2 = Foo()
+
+        f1()
+        f1()
+        f2()
+
+    </script>
+</body>
+</html>

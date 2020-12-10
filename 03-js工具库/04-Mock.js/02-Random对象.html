@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random对象</title>
+</head>
+<body>
+    <script src="./node_modules/mockjs/dist/mock.js"></script>
+    <script>
+        var Random = Mock.Random;
+        //2.Date对象    日期里的方法，共四个
+        console.log(
+            Random.date(),
+            Random.date('yyyy-MM--dd')
+        );
+
+        // Random.time()    返回的是时间
+        console.log(
+            Random.time(),
+            Random.time('A HH:mm:ss:SS')
+        )
+
+        // Random.datetime()    日期和时间
+        console.log(
+            Random.datetime()
+        )
+
+        // Random.now   返回当前的日期和时间字符串
+        console.log(
+            Random.now(),
+            Random.now('year')
+        )
+
+
+        //3.image  图片类里的方法，共2个 
+        console.log(
+            Random.image(),
+            Random.image('200x100'),
+            Random.image('200x100','#ffcc33','#fff','png')
+        )
+
+        //Random.dataImage()
+        console.log(
+            Random.dataImage('200x100')
+        )
+
+
+        //4.Color 颜色类里的方法，共5个
+        // Random.color 随机生成一个有吸引力的颜色，格式为#RRGGBB
+        console.log(
+            Random.color()
+        )
+
+        // Random.hex() 随机生成一个有吸引力的颜色，格式为#RRGGBB
+        console.log(
+            Random.hex()
+        )
+
+        // Random.rgb()
+        console.log(
+            Random.rgb()
+        )
+
+        // Random.rgba()
+        console.log(
+            Random.rgba()
+        )
+
+        // Random.hsl()
+        console.log(
+            Random.hsl()
+        )
+
+
+        // 5.Text 文本类，共有5个
+        // Random.paragraph()  随机生成一段文本
+        console.log(
+            Random.paragraph()
+        )
+        console.log(
+            Random.paragraph(2)
+        )
+        console.log(
+            Random.paragraph(1,3)
+        )
+
+        // Random.cparagraph() 中文段落
+        console.log(
+            Random.cparagraph()
+        )
+        console.log(
+            Random.cparagraph(2)
+        )
+        console.log(
+            Random.cparagraph(1,3)
+        )
+
+
+        // Random.sentence()//首字母大写，单词数量
+        console.log(Random.sentence())
+        console.log(Random.sentence(5))
+        console.log(Random.sentence(1,5))
+
+        // Random.csentence()   中文的
+        console.log(Random.csentence())
+        console.log(Random.csentence(5))
+        console.log(Random.csentence(1,5))
+
+        // Random.word()   随机生成一个单词
+        console.log(Random.word())
+        console.log(Random.word(3))
+        console.log(Random.word(1,5))
+
+        // Random.cword()  中文单词
+        console.log(Random.cword())
+        console.log(Random.cword(5))
+        console.log(Random.cword(1,5))
+        console.log(Random.cword('零一二三四五六七',3))//文本池
+
+        // Random.title()  随机生成一个标题,有最大值和最小值，最大值默认为7
+        console.log(
+            Random.title()
+        )
+
+        // Random.ctitle() 中文
+        console.log(Random.ctitle())
+
+
+        // 6.Name 名字类里的方法，方法数量为6个
+        // Random.first()
+        console.log(Random.first())//英文名
+        // Random.last()
+        console.log(Random.last())//英文姓
+        // Random.name()
+        console.log(Random.name())//英文的姓和名
+        // Random.cfirst()姓
+        console.log(Random.cfirst())
+        // Random.clast()名
+        console.log(Random.clast())
+        // Random.cname()姓名
+        console.log(Random.cname())
+
+
+        // 7.Web类 共6个        
+        // Random.url()    随机地址
+        console.log(Random.url())
+        console.log(Random.url('http'))
+        console.log(Random.url('http','kavion.cn'))
+
+        // Random.protocol()   随机生成协议
+        console.log(Random.protocol())
+
+        // Random.tld()    随机生成域名
+        console.log(Random.tld())
+
+        // Random.email()  随机生成一个邮箱
+        console.log(Random.email())
+        console.log(Random.email('kaivon.cn'))
+
+        // Random.ip() 随机生成一个ip
+        console.log(Random.ip())
+
+
+        // 8.Address   地址类方法，共5个    
+        // Random.region() 随机生成一个中国的大区
+        console.log(Random.region())
+
+        // Random.province()   随机生成一个中国省或者直辖市，自治区
+        console.log(Random.province())
+
+        // Random.city()   随机成一个中国的城市
+        console.log(Random.city())
+        console.log(Random.city(true))
+
+        // Random.county()   随机生成一个中国县
+        console.log(Random.county())
+        console.log(Random.county(true))
+
+        // Random.zip() 随机生成一个邮政编码
+        console.log(Random.zip())
+        
+        // 9.Helper   帮助类方法，共5个
+        // Random.capitalize()  把字符串的第一个字母转换为大写
+        console.log(Random.capitalize('hello'))
+
+        //Random.upper()    吧字符串转为大写
+        console.log(Random.upper('hello'))
+
+        // Random.lower()  把字符串转换为小写
+        console.log(Random.lower('HELLO'))
+
+        // Random.pick()   从数组中随机选取一个元素，并返回
+        console.log(Random.pick(['a','b','c']))
+
+        // Random.shuffle()    打乱数组顺序，并且随机排序
+        console.log(Random.shuffle(['a','b','c']))
+
+        // 10.Miscellaneous    其他类里的方法，共3个
+        // Random.guid()    随机生成一个guid，唯一标识
+        console.log(Random.guid())
+
+        // Random.id() 随机生成一个18位身份证
+        console.log(Random.id())
+
+        // Random.increment()   生成一个全局的自增整数
+        console.log(Random.increment())
+        console.log(Random.increment(2))    //整数自增的步长，默认值为1
+
+
+
+    </script>
+</body>
+</html>

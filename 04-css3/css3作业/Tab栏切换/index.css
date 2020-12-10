@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.wrapper {
+    width: 600px;
+    height: 600px;
+    border: 1px solid #ccc;
+    margin:100px auto;
+    position: relative;
+    /* box-sizing: border-box; */
+}
+
+.btn {
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+}
+
+.btn a {
+    float: left;
+    width: 20%;
+    padding: 0 15px;
+    background-color: #ddd;
+    color: #000;
+    font-size: 18px;
+}
+
+.box {
+    width: 600px;
+    height: 600px;
+    
+}
+
+#tab1,
+#tab2,
+#tab3,
+#tab4 {
+    width: 100%;
+    height: 100%;
+}
+
+#tab1 {
+    background-color: pink;
+}
+#tab2 {
+    background-color: red;
+}
+#tab3 {
+    background-color: blue;
+}
+#tab4 {
+    background-color: yellow;
+}
+
+.box div:not(:target) {
+    display: none;
+}
+.btn > .tab:target {
+    background-color: pink;
+}

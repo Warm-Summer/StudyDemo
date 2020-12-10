@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>试题</title>
+</head>
+<body>
+	<script>
+		var foo = 123;
+		function print() {
+			// var this = print.creat(prototype)
+			this.foo = 234;//这里的this指向的是全局，但是此时又改变了foo的值
+			console.log(foo)
+		}
+		new print()//123
+		print()//234
+
+
+		var a = 5;
+		function test () {
+			a = 0;
+			console.log(a)
+			console.log(this.a)
+			var a;
+			console.log(a)
+		}
+		test()//0 5 0
+		new test()//
+
+
+		function prin () {
+			console.log(foo)//undefined
+			var foo = 2
+			console.log(foo)//2
+			// console.log(hello)//is not defined(报错)
+
+		}
+		prin()
+		// AO {
+		// 	foo:undefined
+		// 	foo:2
+		// hello:is not defined
+		// }
+
+
+		function fun () {
+			var test;
+			test();
+			function test () {
+				console.log(1)
+			}
+		}
+		fun()//1
+		// AO {
+		// 	test:undefined
+		// 	test:function
+		// }
+
+
+		function pri () {
+			var marty = {
+				name: "marty",
+				printName: function () {
+					console.log(this.name)
+				}
+			}
+		}
+		pri()//marty
+
+
+		var bar = {
+			a: "002"
+		}
+		function func () {
+			bar.a = "a"
+			Object.prototype.b = "b"
+			return function inner() {
+				console.log(bar.a)//a
+				console.log(bar.b)//b
+			}
+		}
+		func()()
+	</script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>长度</title>
+</head>
+<body>
+    <script>
+        //1.当前字符为的unicode>255,那么该字符字节长度为2
+        //2.<=255为1
+
+        var str = 'abgd邓';
+        function bytesLength (str) {
+            var count = str.length;
+
+           for(var i = 0; i < str.length; i++) {
+                if(str.charCodeAt(i) > 255) {
+                    count ++
+                }
+           }
+           return count
+        }
+        bytesLength(str)
+    </script>
+</body>
+</html>

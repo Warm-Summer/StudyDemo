@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var obj1 = {
+            name:"u1",
+            address: {
+                country: "中国",
+                city: "银川"
+            }
+        }
+        var obj2 = obj1;
+        var obj2 = {
+            name: "u2",
+            address: obj1.address
+        }
+    //    obj2.name = "user2";
+       obj2.address.city = "固原";
+        console.log(obj1.name,obj2.name);
+        console.log(obj1.address.city,obj2.address.city)
+    </script>
+</body>
+</html>

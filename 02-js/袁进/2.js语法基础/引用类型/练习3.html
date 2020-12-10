@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var item = {
+            name: "foo",
+            parent: {
+                name: "bar"
+            },
+            child: {
+                name: "goo"
+            }
+        };
+    
+    var temp = item.parent;
+    item.parent = item.child;
+    item.child = temp;
+    
+    console.log(item)//goo
+
+
+        //将item的parnt和child互换，不可创建新对象
+
+    </script>
+</body>
+</html>

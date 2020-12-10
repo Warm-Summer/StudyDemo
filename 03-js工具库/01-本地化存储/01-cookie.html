@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">数据请求</button>
+    <script src="../本地化存储/js/ajax.js"></script>
+    <script>
+        /*
+            cookie  为什么有cookie
+            http    上下文无关，无状态协议
+            set-cookie   服务器设置（前端无法设置）
+
+            1.cookie不可跨域
+            2.cookie存储在浏览器里面
+            3.cookie有数量与大小的限制
+                1.数量在50个左右
+                2.大小在4kb左右（如果超过就会删除）
+            4.cookie的存储时间非常灵活
+            5.cookie不光可以服务器设置，客户端也可以设置
+                客户端如何去设置cookie呢？
+                document.cookie(既可以获取还可以设置，设置的时候是以键值对设置的：key：value)
+                cookie每次只能设置一个
+
+            cookie的属性
+                1.name      cookie的名字，唯一性
+                2.value     cookie的值
+                3.domain    设置cookie属于在哪个域下是有效的
+                4.path      cookie的路径
+                5.expires   cookie的过期时间  GMT的格式     表示具体的时间点
+                6.max-age   cookie的有效期                  表示具体的时间段
+                    -1  表示临时的cookie
+                    0   表示有效期到了
+                    正数    表示有效期时间段是多少
+                7.HttpOnly  有这个标记的cookie，前端是无法获取的
+                8.Secure    设置cookie只能通过Https协议传输
+                9.SameSite  设置cookie在跨域请求的时候不能被发送
+        */
+
+        document.cookie = 'name=kaivon';
+        //document.cookie = 'name=kaivon;age=18';错误，cookie只能设置一个
+
+        // cookie属性
+        document.cookie='color=red;domain=127.0.0.2;path=/docs';
+
+        console.log(new Date());
+
+        document.cookie='margin=20;expires='
+        document.cookie='padding=30;max-age=6'
+
+        setTimeout(function () {
+            console.log(document.cookie)
+        },4000)
+
+        var btn = document.querySelector('#btn')
+        btn.onclick = function () {
+            ajax('js/data.json', function(data){
+                console.log(data)
+            })
+        }
+    </script>
+</body>
+</html>

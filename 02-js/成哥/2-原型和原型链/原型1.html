@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>原型</title>
+</head>
+<body>
+    <!-- 
+        1.定义：原型是function对象的一个属性，它定义了构造函数制造出来的对象的公共祖先。
+              通过该构造函数产生的对象，可以继承该原型的属性和方法，原型也是对象 
+        2.通过原型，可以提取到共有数据
+        3.原型的增删改查：后代无法对原型进行增删改查
+        
+    -->
+    <script>
+        // Person.prototype         ----->原型
+        //Person.prototype = {}       是祖先
+        Person.prototype.name = "lisi"
+        function Person () {
+            // var this = {
+            //     __proto__: Person.prototype
+            // }
+        }
+        var person = new  Person()
+        console.log(person.name)
+
+    
+        Car.prototype.name = 'BWM';
+        
+        function Car (color,owner) {
+            this.color = color;
+            this.owner = owner
+        }
+        var car = new Car('red','H');
+
+
+        function Num () {
+
+        }
+        var num = new Num()
+        num.constructor
+
+
+        Per.prototype = {
+            name:"Summer",
+            age:20
+        }
+        function Per() {
+
+        }
+        var obj = {
+            name:"Warm",
+            age:18
+        }
+
+        var per = new Per()
+        console.log(per.name,per.age)//Summer,20
+        per.__proto__ = obj;
+        console.log(per.name,per.age)
+    </script>
+
+
+   
+</body>
+</html>

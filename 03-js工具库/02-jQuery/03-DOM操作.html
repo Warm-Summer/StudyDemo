@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM操作</title>
+    <style>
+        body {
+            padding-bottom: 1000px;
+        }
+
+        .red {
+            background: red;
+        }
+
+        .green {
+            background: green;
+        }
+
+        .blue {
+            background: blue;
+        }
+
+        .active {
+            background: greenyellow;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 操作class -->
+    <div class="setClass">
+        <ul>
+            <li>red</li>
+            <li class="green bluee">green</li>
+            <li class="red green">blue</li>
+        </ul>
+        <p class="active">点击切换class</p>
+    </div>
+    <hr>
+    <!-- 插入元素，内部插入 -->
+    <div class="insideAdd">
+        <p>在内部插入元素</p>
+    </div>
+    <hr>
+
+
+    <!-- 插入元素，外部插入 -->
+    <div class="outsideAdd">
+        <h2>在外部插入元素</h2>
+    </div>
+    <hr>
+
+    <!-- html和text -->
+    <div class="htmlText">
+        <p>html和text方法</p>
+    </div>
+    <hr>
+
+    <!-- 包裹元素 -->
+    <div class="wrap">
+        <span>red</span>
+        <span>green</span>
+        <span>blue</span>
+    </div>
+    <hr>
+
+
+    <!-- 删除元素 -->
+    <div class="del">
+        <div class="title">标题</div>
+        <ul>
+            <li>red</li>
+            <li>green</li>
+            <li>yellow</li>
+        </ul>
+        <div class="foot">底部</div>
+    </div>
+
+    <!-- 克隆和替换元素 -->
+
+
+    <!-- 属性操作--通用属性操作 -->
+    <div class="attr">
+        <img src="images/img_01.jpg" alt="" kaivon='liu'>
+        <!-- <img src="images/img_02.jpg" alt=""> -->
+        <input type="text" value="这是一个正经的输入框">
+    </div>
+
+
+
+
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script>
+        // 操作class
+        $('.setClass li:first').addClass('red')
+        $('.setClass li:eq(1)').removeClass('green')
+        console.log(
+            $('.setClass li:last').hasClass('green'),//true
+            $('.setClass li:last').hasClass('orange')//false
+        )
+        $('.setClass p').click(function () {
+            $(this).toggleClass()
+        })
+
+        // 插入元素，内部插入
+        $('.insideAdd').append('<h2>append方法插入<h2>')
+        $('<h4>appendTo方法插入<h4>').appendTo('.insideAdd')
+        $('.insideAdd').prepend('<h2>prepend方法插入</h2>')
+        $('<h3>prependTo方法插入</h3>').prependTo('.insideAdd')
+        //插入元素，外部插入
+        $('.outsideAdd h2').after('<p>after方法===在h2元素之后插入</p>')
+        $('<p>insertafter方法==h2之后插入</p>').insertAfter('.outsideAdd h2')
+
+        $('.outsideAdd h2').before('<p>before方法===在h2元素之前插入</p>')
+        $('<p>insertBefore方法==h2之前插入</p>').insertBefore('.outsideAdd h2')
+
+        // html和text方法
+        console.log($('.htmlText').html())//读取
+        $('.htmlText').html('<h2>这是html写入内容</h2>')//写入
+
+        console.log($('.htmlText').text())
+        $('.htmlText').text('<h2>这是text写入内容</h2>')
+
+        // 包裹元素
+        $('.wrap span').wrap('<li>')//给每一个span标签包裹了一层li元素
+        $('.wrap li').wrapAll('<ul>')//给所有元素来一个父级元素u
+        $('.wrap span').wrapInner('<strong>')//给每一个元素里面包裹了一个strong标签
+        $('.wrap li').unwrap()//去掉了那个父级元素ul
+
+        // 删除元素
+        $('.del .title').remove()
+        $('.del ul').empty()//删除单个的元素
+        $('.del .foot').click(function () {
+            alert(1)
+        })
+        var end = $('.del .foot').detach()
+        setTimeout(function () {
+            $('.del').append(end)
+        }, 1000)
+
+
+    // 属性操作--通用属性操作
+    console.log($('.attr img').attr('src'))//属性值设置在了第一个元素的身上
+    $('.attr img').attr('title','这是一张图片')//属性值在所有的元素里都有
+    $('.attr img').attr({
+        alt:'美食',
+        class: 'delicous'
+    })
+    console.log($('.attr img').prop('src'))//绝对路劲
+    console.log(
+        $('.attr img').attr('kaivon'),//liu
+        $('.attr img').prop('kaivon')//undefined
+    )
+    $('.attr img').prop({
+        id:'food',
+        kaivon:'liuliu'//自定义属性prop并没有添加到DOM标签身上，但是会添加到哦DOM对象身上
+    }) 
+    $('.attr img').attr('kaivon','liuliu')
+    $('.attr img').removeAttr('kaivon')
+    $('.attr img').removeProp('id')//删除的是DOM身上的属性，并不是DOM标签身上的属性
+    console.log($('.attr input').val());
+    $('.attr input').val('输入内容')
+
+
+
+
+    </script>
+</body>
+
+</html>
