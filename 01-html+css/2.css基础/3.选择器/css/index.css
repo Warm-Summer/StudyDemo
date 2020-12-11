@@ -1,0 +1,49 @@
+/* 属性选择器 */
+/* 选择所有具有href属性的元素 */
+[href] {
+    color: turquoise;
+}
+
+/* 带有属性名，并且属性值为。。。 */
+[href="https://wwww.baidu.com"] {
+    color: red;
+}
+/* 具有class属性，并且  包含有  b 属性值的元素 */
+[class~="b"] {
+    color: rosybrown;
+}
+
+/* 选中鼠标悬停是的p元素 */
+p:hover {
+    color: seagreen;
+}
+
+/* 鼠标按下时的span元素 */
+/* span:active {
+    color: springgreen;
+} */
+
+/* 链接未访问过的颜色 */
+a:link {
+    color: chocolate;
+}
+
+/* 链接访问过的颜色 */
+a:visited {
+    color: yellowgreen;
+}
+
+span::before {
+    content: "《";
+}
+span:after {
+    content: "》";
+}
+
+.special+li {
+    color: navajowhite;
+}
+
+.special~li {
+    color: yellowgreen;
+}
