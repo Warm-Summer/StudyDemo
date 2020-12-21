@@ -1,0 +1,121 @@
+/* 公共样式 */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/* 导航栏区域 */
+nav {
+    height: 60px;
+    width: 100%;
+    background:#47464a;
+    text-align: center;
+    line-height: 60px;
+}
+nav a {
+    margin-right: 80px;
+    color: #999;
+}
+nav a:hover {
+    color: #fff;
+}
+nav a.selected {
+    color: #ef4238;
+}
+/* 中间内容区域 */
+.container {
+    width: 1120px;
+    margin: 0 auto;
+}
+/* 选项菜单区域 */
+.container .choose {
+    border: 1px solid #e5e5e5;
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 30px;
+    padding: 0 30px;
+}
+.container .choose .choose-item {
+    margin: 1em 0;
+    border-bottom: 1px dotted #e5e5e5;
+    padding-bottom: 3px;
+}
+
+.container .choose .choose-item:last-child {
+    border: none;
+}
+.container .choose .choose-item .left {
+    float: left;
+    color: #999;
+}
+.container .choose .choose-item .right {
+    float: left;
+    width: 1010px;
+}
+.container .choose .choose-item .right li {
+    float: left;
+    margin: 0 9px;
+    padding: 0 6px;
+    color: #333;
+}
+.container .choose .choose-item .right li:hover {
+    color: #ef4238;
+}
+.container .choose .choose-item .right li.active {
+    background:#ef4238;
+    color: #fff;
+    border-radius: 15px;
+}
+/* 电影列表区域 */
+.movies {
+    margin-top: 80px;
+}
+.movies .movie-item {
+    height: 290px;
+    float: left;
+    margin: 10px 32px 10px 0;
+}
+.movies .movie-item:nth-child(6n) {
+    margin-right: 0;
+}
+.movies .movie-item .poster img {
+    width: 160px;
+    height: 220px;
+}
+.movies .movie-item .name {
+    font-size: 16px;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 2px;
+    text-align: center;
+}
+.movies .movie-item .score {
+    color:#ffb400;
+    text-align: center;
+    line-height: 2.5;
+    font-style: italic;
+}
+.movies .movie-item .score::first-letter {
+    font-size: 1.5em;
+}
+/* 页签区域 */
+.pager {
+    margin: 2em 0;
+    text-align: center;
+}
+
+.pager a {
+    border: 1px solid  #d8d8d8;
+    padding: 5px 10px;
+    margin: 0 3px;
+}
+.pager a:hover {
+    border-color: #ef4238;
+}
+.pager a.select {
+    background: #ef4238;
+    color: #fff;
+    border: none;
+}
+/* 底部区域 */
