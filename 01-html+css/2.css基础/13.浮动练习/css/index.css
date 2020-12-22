@@ -71,6 +71,7 @@ nav a.selected {
     margin-top: 80px;
 }
 .movies .movie-item {
+    width: 160px;
     height: 290px;
     float: left;
     margin: 10px 32px 10px 0;

@@ -1,0 +1,49 @@
+.claerfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+header {
+    height: 30px;
+    background: #e3e4e5;
+    color: #999;
+    font-size: 14px;
+}
+header .container {
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+
+}
+header .container .left li {
+    float: left;
+    width: 54px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 2px;
+}
+header .container .right {
+    margin-left: 410px;
+    box-sizing: border-box;
+}
+header .container .right>li {
+    width: 75px;
+    float: left;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+}
+header .container .right>li:hover {
+    border: 1px solid #ccc;
+    background: #fff;
+}
+header .container .right li:first-child {
+    width: 100px;
+}
+header .container .right .red {
+    color: red;
+}
+
