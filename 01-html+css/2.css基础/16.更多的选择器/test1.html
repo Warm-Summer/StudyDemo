@@ -1,10 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>子元素</title>
+    <style>
+   /*选中a元素,并且a元素必须是第一个子元素*/
+        a:first-child {
+            color: red;
+        }
+   /*选中的是子元素中第一个a元素*/
+        a:first-of-type {
+            color: blue;
+        }
+        /*必须是a元素，必须是最后一个子元素*/
+        a:last-child {
+            color: #1f9432;
+        }
+        /*选中的是子元素中的最后一个a元素*/
+        a:last-of-type {
+            color: #2d2d2d;
+        }
+        /*必须是a元素，必须是第五个子元素*/
+        a:nth-child(5) {
+            color: rebeccapurple;
+        }
+        /*2n:必须是a元素，必须适合第偶数个子元素*/
+    </style>
 </head>
 <body>
-$END$
+<nav>
+    <p>aaaaa</p>
+    <a href="">Lorem.</a>
+    <a href="">Tenetur.</a>
+    <a href="">Minima.</a>
+    <a href="">A.</a>
+    <a href="">Et.</a>
+    <a href="">Modi!</a>
+    <a href="">Distinctio.</a>
+    <a href="">Vero.</a>
+    <a href="">Id!</a>
+    <a href="">Velit!</a>
+    <p>aaaa</p>
+</nav>
 </body>
 </html>
