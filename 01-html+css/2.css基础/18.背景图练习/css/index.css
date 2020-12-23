@@ -1,0 +1,95 @@
+.clearfix {
+    content: "";
+    display: block;
+    clear: both;
+}
+body {
+    background: url("../img/bg.jpg") no-repeat;
+}
+.header {
+    width: 1197px;
+    height: 70px;
+    margin: 43px  auto 0;
+    text-align: center;
+    line-height: 70px;
+    background: url("../img/bg_nav.jpg") no-repeat;
+    box-sizing: border-box;
+    border: 1px solid #422d24;
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.header nav a {
+    float: left;
+    width: 159px;
+    height: 69px;
+    border: 1px solid #3f2a22;
+    border-top: none;
+    border-bottom: none;
+    color: #f8b704;
+    font-weight: bold;
+}
+.header nav a:nth-child(3) {
+    margin-right: 231px;
+}
+.header .logo h2 {
+    display: none;
+}
+.header .logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -40px;
+    margin: auto;
+    background: url("../img/logo.png") no-repeat;
+    width: 238px;
+    height: 118px;
+}
+.menu {
+    text-align: center;
+    margin-top: 461px;
+}
+.menu a {
+    display: inline-block;
+    width: 317px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    background: url("../img/btns.png") no-repeat;
+}
+.menu a span {
+    display: none;
+}
+.menu a.download {
+    background-position: -329px 0;
+}
+.banner {
+    width: 1220px;
+    height: 201px;
+    margin: 84px auto;
+    box-sizing: border-box;
+}
+.banner .item {
+    width: 290px;
+    height: 201px;
+    float: left;
+    text-align: center;
+    margin-right: 15px;
+    outline: 2px solid #3f2a22;
+}
+.banner .item .title {
+    height: 52px;
+    line-height: 52px;
+    background: #211510;
+    color: #f8b700;
+    border-bottom: 2px solid #3f2a22;
+    box-sizing: border-box;
+}
+.banner .item .img {
+    height: 149px;
+    width: 290px;
+}
+.banner .item .img img {
+    height: 149px;
+    width: 290px;
+}

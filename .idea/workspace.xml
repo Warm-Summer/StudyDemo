@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ca2e945f-5dc2-43f3-8010-708424134401" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/StudyDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/17.更多的样式/img/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/17.更多的样式/固定背景图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/17.更多的样式/雪碧图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/img/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/img/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/img/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/img/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/img/bg_nav.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/img/btns.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/img/页面效果.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html+css/2.css基础/17.更多的样式/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/01-html+css/2.css基础/17.更多的样式/笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html+css/2.css基础/17.更多的样式/背景图.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-html+css/2.css基础/17.更多的样式/背景图.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1m2y6oHI1iFUs9VJ2NqmJmdAQYG" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\StudyDemo\01-html+css\2.css基础\18.背景图练习\css" />
+      <recent name="D:\StudyDemo\01-html+css\2.css基础\18.背景图练习" />
+      <recent name="D:\StudyDemo\01-html+css\2.css基础\17.更多的样式\img" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca2e945f-5dc2-43f3-8010-708424134401" name="Default Changelist" comment="" />
+      <created>1608705809877</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608705809877</updated>
+      <workItem from="1608705812538" duration="7507000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
