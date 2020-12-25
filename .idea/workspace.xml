@@ -2,26 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca2e945f-5dc2-43f3-8010-708424134401" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/StudyDemo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/17.更多的样式/img/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/17.更多的样式/固定背景图.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/17.更多的样式/雪碧图.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/css/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/img/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/img/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/img/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/img/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/img/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/img/bg_nav.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/img/btns.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/img/页面效果.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-html+css/2.css基础/17.更多的样式/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/01-html+css/2.css基础/17.更多的样式/笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-html+css/2.css基础/17.更多的样式/背景图.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-html+css/2.css基础/17.更多的样式/背景图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-js/袁进/3.运算符/4.比较运算符/test1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-js/袁进/3.运算符/4.比较运算符/test2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-js/袁进/3.运算符/4.比较运算符/test3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-js/袁进/3.运算符/4.比较运算符/test4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-js/袁进/3.运算符/4.比较运算符/笔记.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-js/袁进/javascript笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-js/袁进/3.运算符/3.自增和自减/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/02-js/袁进/3.运算符/3.自增和自减/笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -53,17 +41,29 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/01-html+css/2.css基础/18.背景图练习/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/02-js/袁进" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\StudyDemo\02-js\袁进" />
+      <recent name="D:\StudyDemo\02-js\袁进\3.运算符\5.逻辑运算符" />
       <recent name="D:\StudyDemo\01-html+css\2.css基础\18.背景图练习\css" />
       <recent name="D:\StudyDemo\01-html+css\2.css基础\18.背景图练习" />
       <recent name="D:\StudyDemo\01-html+css\2.css基础\17.更多的样式\img" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/StudyDemo/02-js/袁进/3.运算符/4.比较运算符/test1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.test1.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -74,6 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608705809877</updated>
       <workItem from="1608705812538" duration="7507000" />
+      <workItem from="1608876890673" duration="4880000" />
     </task>
     <servers />
   </component>
@@ -90,6 +91,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
