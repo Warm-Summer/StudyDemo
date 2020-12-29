@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作业2</title>
+</head>
+<body>
+<script>
+    //2. 让用户输入一个成绩（0-100），判断这个成绩属于哪个范围并输出结果（A:90-100  B:70-89  C:60-69  D:40-59  E:0-39），
+    // 若用户输入的不是0-100的数字，则输出输入有误。
+    var grad = +prompt("请您输入成绩");
+    if (grad >= 0 && grad <= 100) {
+        console.log(grad);
+        if (grad >= 90 && grad <= 100) {
+            console.log("A");
+        }else if (grad >= 89 && grad <= 70) {
+            console.log("B");
+        }else if (grad >= 69 && grad <= 60) {
+            console.log("C");
+        }else if (grad >= 59 && grad <= 40) {
+            console.log("D");
+        }else if (grad >= 0 && grad <= 39) {
+            console.log("E");
+        }
+    } else if (isNaN(grad) || grad < 0 && grad > 100 ) {
+        console.log("您输入的数字有误");
+    }
+</script>
+</body>
+</html>

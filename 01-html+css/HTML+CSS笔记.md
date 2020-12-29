@@ -1420,3 +1420,4 @@ background-color: #000;
 ```css
 background: background-image background-repeat  background-posiziton / background-size  background-attachment
 ```
+

@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca2e945f-5dc2-43f3-8010-708424134401" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/3.运算符/4.比较运算符/test1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/3.运算符/4.比较运算符/test2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/3.运算符/4.比较运算符/test3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/3.运算符/4.比较运算符/test4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/3.运算符/4.比较运算符/笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/javascript笔记.md" afterDir="false" />
+    <list default="true" id="ca2e945f-5dc2-43f3-8010-708424134401" name="Default Changelist" comment="提交">
+      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/2.if判断/test2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/2.if判断/test3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/3.[作业讲解]if判断/作业.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/3.[作业讲解]if判断/作业1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/3.[作业讲解]if判断/作业2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/3.[作业讲解]if判断/作业3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/3.[作业讲解]if判断/作业4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/3.[作业讲解]if判断/作业5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/4.switch开关/test1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-js/袁进/3.运算符/3.自增和自减/笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/02-js/袁进/3.运算符/3.自增和自减/笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-js/袁进/javascript笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/02-js/袁进/javascript笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +30,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/02-js/袁进/javascript笔记.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1m2y6oHI1iFUs9VJ2NqmJmdAQYG" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -41,18 +47,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/02-js/袁进" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/02-js/袁进/4.流程控制/4.switch开关" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\StudyDemo\02-js\袁进\4.流程控制\4.switch开关" />
+      <recent name="D:\StudyDemo\02-js\袁进\4.流程控制\3.[作业讲解]if判断" />
+      <recent name="D:\StudyDemo\02-js\袁进\4.流程控制\2.if判断" />
       <recent name="D:\StudyDemo\02-js\袁进" />
       <recent name="D:\StudyDemo\02-js\袁进\3.运算符\5.逻辑运算符" />
-      <recent name="D:\StudyDemo\01-html+css\2.css基础\18.背景图练习\css" />
-      <recent name="D:\StudyDemo\01-html+css\2.css基础\18.背景图练习" />
-      <recent name="D:\StudyDemo\01-html+css\2.css基础\17.更多的样式\img" />
     </key>
   </component>
   <component name="RunManager">
@@ -75,7 +81,18 @@
       <updated>1608705809877</updated>
       <workItem from="1608705812538" duration="7507000" />
       <workItem from="1608876890673" duration="4880000" />
+      <workItem from="1609202263523" duration="3515000" />
+      <workItem from="1609310012879" duration="44000" />
+      <workItem from="1609310087046" duration="9407000" />
     </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1609225510659</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609225510659</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,5 +112,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
 </project>

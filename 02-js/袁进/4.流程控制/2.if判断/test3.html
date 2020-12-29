@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文本输入</title>
+</head>
+<body>
+<script>
+    var result = prompt("请输入你的年龄");
+    if (result === null) {
+        alert("你点击了取消")
+    } else {
+        result = +result;//将字符串转为数字
+        if (isNaN(result)) {
+            console.log("不是正常的数字")
+        }else {
+            console.log(result, typeof result);
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>作业</title>
+</head>
+<body>
+  <script>
+    // 1. 用一个变量保存成绩，输出改成绩是否及格（true或false）
+    var grade = 57;
+    grade > 60 && console.log(true);
+    grade > 60 || console.log(false);
+
+    // 2. 用一个变量保存年份，得到该年份2月的天数
+    var year = 2010;
+    var result = year % 4 === 0 && year % 100 !== 0 || year % 400 === 0;
+    result && console.log(29 + "天");
+    !result && console.log(28 + "天");
+
+    // 3. 利息计算器：设置变量，分别存放本金，月数、年利率，计算利息；如果本金存放朗超过了10w，年利率上浮20%
+    var money = 200000,
+        month = 12,
+        rate = 4;
+    money > 100000 && (rate = rate * 1.2);
+    var lixi = money * rate / 100 / 12 * month;
+    console.log(lixi);
+  </script>
+</body>
+</html>

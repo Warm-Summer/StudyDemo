@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作业5</title>
+</head>
+<body>
+<script>
+    // 5. 编写一个用户和计算机猜拳的游戏，用户输入剪刀、石头或布，与计算机的出拳进行比较，判断胜负
+    var fist = prompt("请出拳（石头，剪刀，布）");
+    if (fist !== "石头" && fist !== "剪刀" && fist !== "布") {
+        //不正确
+        console.log("您输入的不正确");
+    }else {
+        //模拟计算机出拳
+        var rad = Math.random();
+        var PCfist;
+        //给PCfist赋值
+        if (rad < 0.33) {
+            PCfist = "石头";
+        }else if (rad < 0.66) {
+            PCfist = "布";
+        }else {
+            PCfist = "剪刀";
+        }
+
+        //判断输赢
+        console.log(`您出拳为${fist},计算机出拳为${PCfist}`);
+        if (fist === "石头" && PCfist === "剪刀" ||
+            fist === "剪刀" && PCfist === "布" ||
+            fist === "布" && PCfist === "石头") {
+            console.log("您赢了");
+        } else if (fist === "石头" && PCfist === "石头" ||
+                    fist === "剪刀" && PCfist === "剪刀" ||
+                    fist === "布" && PCfist === "布") {
+            console.log("平局");
+        } else {
+            console.log("您输了");
+        }
+    }
+</script>
+</body>
+</html>
