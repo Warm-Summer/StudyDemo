@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作业11</title>
+</head>
+<body>
+<script>
+    // 11. 判断数字233是不是素数。
+    var num = 233;
+    var isFind = false;//不是
+    for (var i = 2; i < 233; i++) {
+        if (num % i === 0) {
+            isFind = true;
+            break;
+        }
+    }
+    if (isFind) {
+        console.log("233不是素数");
+    }else {
+        console.log("233是素数");
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作业12</title>
+</head>
+<body>
+<script>
+    // 12. 输出1-100中的所有素数
+    for (var i = 1; i <= 100; i++) {
+        var isFind = false;//没有找到
+        for (var j = 2; j < i -1; j++) {
+            if (i % j === 0) {
+                isFind = true;
+            }
+        }
+        if (i > 1 && !isFind) {
+            console.log(i);
+        }
+    }
+</script>
+</body>
+</html>

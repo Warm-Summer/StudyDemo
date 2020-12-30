@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>练习</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .box1 {
+            position: absolute;
+            width: 200px;
+            height: auto;
+            border: 1px solid;
+        }
+        .box2 {
+            position: absolute;
+            width: 200px;
+            height: auto;
+            border: 1px solid;
+            left: 250px;
+        }
+        li {
+            position: relative;
+            width: 150px;
+            height: 50px;
+            background: #abcdef;
+            margin: 10px auto 5px auto;
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+<div class="box1">
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+<div class="box2"></div>
+
+<script>
+    var dragDom;
+    var liList = document.getElementsByTagName("li");
+    for (var i = 0; i < liList.length; i++) {
+        liList[i].setAttribute("draggable", true);
+        liList[i].ondragstart = function (e) {
+            dragDom = e.target;
+        }
+    }
+    var box2 = document.getElementsByClassName("box2")[0];
+    box2.ondragover = function (e) {
+        e.preventDefault();
+    }
+    box2.ondrop = function (e) {
+        box2.appendChild(dragDom);
+        dragDom = null;
+    }
+
+    var box1 = document.getElementsByClassName("box1")[0];
+    box1.ondragover = function (e) {
+        e.preventDefault();
+    }
+    box1.ondrop = function (e) {
+        box1.appendChild(dragDom);
+        dragDom = null;
+    }
+</script>
+</body>
+</html>

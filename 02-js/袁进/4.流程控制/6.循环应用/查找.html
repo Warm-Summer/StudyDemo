@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>for应用之查找</title>
+</head>
+<body>
+<script>
+    //135-145之间是否存在能整除26的数字
+    var number = false;
+    for (var i = 135; i <= 185; i++) {
+        if (i % 26 === 0) {
+            number = true;
+            break;
+        }
+    }
+    if (number) {
+        console.log("存在");
+    }else {
+        console.log("不存在");
+    }
+
+    //查找135-185之间所有能整除26的数字
+    for (var j = 135; j <= 185; j ++) {
+        if (j % 26 === 0) {
+            console.log(j);
+        }
+    }
+
+
+    // 135-185之间第一个能整除26的数字，如果不存在，输出不存在
+    var isFind = false;
+    for (var k = 135; k <= 185; k++) {
+        if (k % 26 === 0) {
+            isFind = true;
+            break;
+        }
+    }
+    if (isFind) {
+        console.log("第一个能被整除的数为：" + k);
+    }else {
+        console.log("不存在");
+    }
+
+
+    //判断一个数是不是素数
+    var isPrimeNumber = false;
+    var num = +prompt("请输入一个数字");
+    for (var g = 2; g < num - 1; g ++) {
+        if (num % g === 0) {
+            isPrimeNumber = true;
+            break;
+        }
+    }
+    if (isPrimeNumber) {
+        console.log("这不是一个素数");
+    }else {
+        console.log("这是一个素数");
+    }
+
+</script>
+</body>
+</html>

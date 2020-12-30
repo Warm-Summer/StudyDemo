@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>嵌套的循环</title>
+</head>
+<body>
+<script>
+
+    for (var i = 1; i <= 100; i ++) {
+        var isFind = false;//不是素数
+        for (var j = 2; j < i - 1; j ++) {
+            if (i % j === 0) {
+                isFind = true;//是素数
+                break;
+            }
+        }
+        if (i > 1 && !isFind) {
+            console.log(i);
+        }
+    }
+
+</script>
+</body>
+</html>

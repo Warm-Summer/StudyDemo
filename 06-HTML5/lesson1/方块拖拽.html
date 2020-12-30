@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>方块拖拽</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .isDiv {
+            width: 100px;
+            height: 100px;
+            background: #abcdef;
+        }
+    </style>
+</head>
+<body>
+<div class="isDiv" draggable="true"></div>
+
+<script>
+    var isDiv = document.getElementsByClassName("isDiv")[0];
+    // 拖拽开始
+    var beginX = 0;
+    var beginY = 0;
+    isDiv.ondragstart = function (e) {
+        beginX = e.clientX;
+        beginY = e.clientY;
+    }
+    isDiv.ondragend = function (e) {
+        var x = e.clientX - beginX;
+        var y = e.clientY - beginY;
+        isDiv.style.left = isDiv.offsetLeft + x + "px";
+        isDiv.style.top = isDiv.offsetTop + y + "px";
+    }
+</script>
+</body>
+</html>
