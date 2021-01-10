@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>方形</title>
+    <style>
+        canvas {
+            width: 500px;
+            height: 300px;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+<canvas id="canvas" width="500px" height="300px"></canvas>
+
+<script>
+    var canvas = document.getElementById("canvas");
+    var ctx = canvas.getContext("2d");
+
+    // 画长方形方法一
+    // ctx.moveTo(100,100);
+    // ctx.lineTo(200,100);
+    // ctx.lineTo(200,200);
+    // ctx.lineTo(100,200);
+    // ctx.closePath();
+    // ctx.stroke();
+
+
+    // 方法二
+    // ctx.rect(100,100,200,100);
+    // ctx.stroke();
+    // ctx.fill();
+
+    // 方法三
+    // ctx.strokeRect(100,100,200,100);
+    ctx.fillRect(100,100,200,100);
+</script>
+</body>
+</html>

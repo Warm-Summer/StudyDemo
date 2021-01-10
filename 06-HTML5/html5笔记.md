@@ -88,3 +88,88 @@ draggable属性：可以实现按下拖拽
 e.dataTransfer.dropEffect = "link";
 该属性只能在**ondrop** 中使用
 ```
+
+
+## canvas
+
+canvas:相当于一块画布，可以在里面绘制动画
+
+注意：
+- canvas就是一个标签
+- 要是想使用，就要在js中使用
+
+例如：
+```JS
+<body>
+<!--画布大小-->
+<canvas id="isCanvas" width="500px" height="300px"></canvas>
+
+<script>
+    var canvas = document.getElementById("isCanvas");
+    //获取画笔，内容区域
+    var ctx = canvas.getContext("2d");
+    // 起点
+    ctx.moveTo(100,100);
+    // 从哪里画到哪里
+    ctx.lineTo(200,100);
+    ctx.lineTo(200,200);
+    // ctx.lineTo(100,100);
+    // 如果忘记起点，想让图形闭合，则使用一下：
+    ctx.closePath();
+    // 渲染
+    ctx.stroke();
+</script>
+</body>
+```
+
+注意：
+- 要是想设置画布大小，就要在canvas标签里面设定宽高，这才是画布的宽高；
+- 如果实在css中设置canvas的宽高，则不是画布的实际宽高；
+
+属性：
+
+1. var ctx = canvas.getContext("2d");
+这个属性就是获取画布，也就是获取到画布的内容区域
+2. ctx.moveTo(100,100);
+画笔的起点，从哪个点开始；只有数字，没有单位；在x，y轴上，确定一个具体的点；
+3. ctx.lineTo(200,100);
+这个属性就是从哪里画到哪里；只有数字，没有单位;
+4. ctx.closePath();
+当画了太多线，不知道起点该怎么绕回时，就是用该属性，可以闭合图形；
+只针对于某一种路径，而不是一个整体；比如使用了beginPath，那么只对beginPath里面的图形实现闭合。
+![img_3.png](img_3.png)
+5. ctx.fill();
+填充图形，图形就是实心而不是空心；
+6. ctx.stroke();
+渲染图形，不然画布上不会出现图形;
+7. ctx.lineWidth = 10;
+线条的宽度
+注意：
+- lineWidth相当于一直在moveTo之前声明；
+- 如果想使用一条线宽，一条线细，则使用一下方法：
+```js
+<script>
+    var canvas = document.getElementById("isCanvas");
+    //获取画笔，内容区域
+    var ctx = canvas.getContext("2d");
+    // 起点
+    ctx.moveTo(100,100);
+    // 从哪里画到哪里
+    ctx.lineTo(200,100);
+    // ctx.lineTo(100,100);
+    // 如果忘记起点，想让图形闭合，则使用一下：
+    ctx.closePath();
+    // 填充
+    // ctx.fill();
+    // 线条加粗
+    ctx.lineWidth = 10;
+    // 渲染
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.moveTo(200,100);
+    ctx.lineTo(200,200);
+    ctx.lineWidth = 1;
+    ctx.stroke();
+</script>
+```

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>canvas</title>
+    <style>
+        canvas {
+            width: 500px;
+            height: 300px;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+<!--画布大小-->
+<canvas id="isCanvas" width="500px" height="300px"></canvas>
+
+<script>
+    var canvas = document.getElementById("isCanvas");
+    //获取画笔，内容区域
+    var ctx = canvas.getContext("2d");
+    // 起点
+    ctx.moveTo(100,100);
+    // 从哪里画到哪里
+    ctx.lineTo(200,100);
+    // ctx.lineTo(100,100);
+    // 如果忘记起点，想让图形闭合，则使用一下：
+    ctx.closePath();
+    // 填充
+    // ctx.fill();
+    // 线条加粗
+    ctx.lineWidth = 10;
+    // 渲染
+    ctx.stroke();
+
+    ctx.beginPath();
+    ctx.moveTo(200,100);
+    ctx.lineTo(200,200);
+    ctx.lineTo(150,200);
+    ctx.closePath();
+    ctx.lineWidth = 5;
+    ctx.stroke();
+    ctx.fill();
+</script>
+</body>
+</html>

@@ -5,372 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca2e945f-5dc2-43f3-8010-708424134401" name="Default Changelist" comment="提交">
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/6.循环应用/嵌套的循环.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/6.循环应用/查找.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/6.循环应用/累计.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/7.[作业讲解]循环应用/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/7.[作业讲解]循环应用/10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/7.[作业讲解]循环应用/11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/7.[作业讲解]循环应用/12.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/7.[作业讲解]循环应用/13.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/7.[作业讲解]循环应用/14.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/7.[作业讲解]循环应用/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/7.[作业讲解]循环应用/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/7.[作业讲解]循环应用/4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/7.[作业讲解]循环应用/5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/7.[作业讲解]循环应用/6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/7.[作业讲解]循环应用/7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/7.[作业讲解]循环应用/8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/7.[作业讲解]循环应用/9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/7.[作业讲解]循环应用/作业.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/8.数组/test1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05-css3/1.选择器/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-HTML5/html5笔记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-HTML5/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-HTML5/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-HTML5/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-HTML5/lesson1/contenteditable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-HTML5/lesson1/draggable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-HTML5/lesson1/input新增属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-HTML5/lesson1/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-HTML5/lesson1/方块拖拽.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-HTML5/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-HTML5/lesson2/canvas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-HTML5/lesson2/方形.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-js/袁进/javascript笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/02-js/袁进/javascript笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/01-cookie.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/01-cookie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/02-cookie的封装及拖拽应用.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/02-cookie的封装及拖拽应用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/03-localStorage.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/03-localStorage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/04-localSstorage应用.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/04-localSstorage应用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/css/shopping.css" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/css/shopping.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/images/ico_01.gif" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/images/ico_01.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/images/ico_02.gif" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/images/ico_02.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/images/img_01-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/images/img_01-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/images/img_01-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/images/img_01-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/images/img_01-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/images/img_01-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/images/img_01-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/images/img_01-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/images/img_02-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/images/img_02-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/images/img_02-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/images/img_02-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/images/img_02-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/images/img_02-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/images/img_03-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/images/img_03-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/images/img_03-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/images/img_03-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/images/img_03-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/images/img_03-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/images/img_04-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/images/img_04-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/images/img_04-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/images/img_04-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/images/img_04-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/images/img_04-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/images/img_04-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/images/img_04-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/js/ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/js/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/js/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/js/shopping.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/js/shopping.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/04-localSstorage应用/js/shoppingData.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/04-localSstorage应用/js/shoppingData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/js/ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/01-本地化存储/js/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/01-本地化存储/js/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/02-jQuery/01-jquery简介.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/02-jQuery/01-jquery简介.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/02-jQuery/02-jquery选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/02-jQuery/02-jquery选择器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/02-jQuery/03-DOM操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/02-jQuery/03-DOM操作.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/02-jQuery/04-遍历.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/02-jQuery/04-遍历.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/02-jQuery/05-事件.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/02-jQuery/05-事件.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/02-jQuery/images/img_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/02-jQuery/images/img_01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/02-jQuery/images/img_02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/02-jQuery/images/img_02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/02-jQuery/js/jquery-1.11.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/02-jQuery/js/jquery-1.11.3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/02-jQuery/js/jquery-1.11.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/02-jQuery/js/jquery-1.11.3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/02-jQuery/js/jquery-3.4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/02-jQuery/js/jquery-3.4.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/02-jQuery/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/02-jQuery/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/03-Lodash/01-Array方法/Array.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/03-Lodash/01-Array方法/Array.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/03-Lodash/01-Array方法/js/lodash.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/03-Lodash/01-Array方法/js/lodash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/01-语法规范.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/01-语法规范.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/02-Random对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/02-Random对象.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/03-mock方法/03-mock方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/03-mock方法/03-mock方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/03-mock方法/js/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/03-mock方法/js/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/03-mock方法/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/03-mock方法/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/03-mock方法/js/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/03-mock方法/js/mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/.bin/random" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/.bin/random.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/.bin/random.ps1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/commander/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/commander/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/commander/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/commander/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/commander/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/commander/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/commander/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/commander/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/commander/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/commander/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/commander/typings/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/commander/typings/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/.jshintrc" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/.jshintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/.spmignore" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/.spmignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/bin/random" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/bin/random" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/dist/mock-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/dist/mock-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/dist/mock-min.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/dist/mock-min.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/dist/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/dist/mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/dependencies.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/dependencies.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/RE_KEY.svg" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/RE_KEY.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/constant.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/constant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/parser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/address.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/address.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/address_dict.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/address_dict.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/basic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/color.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/color.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/color_convert.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/color_convert.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/color_dict.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/color_dict.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/date.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/image.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/image.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/misc.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/misc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/name.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/name.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/text.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/text.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/web.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/random/web.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/regexp/handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/regexp/handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/regexp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/regexp/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/regexp/parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/regexp/parser.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/schema/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/schema/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/schema/schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/schema/schema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/valid/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/valid/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/valid/valid.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/valid/valid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/xhr/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/xhr/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/src/mock/xhr/xhr.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/src/mock/xhr/xhr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/test/bower.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/test/bower.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/test/materiels/noop.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/test/materiels/noop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/test/materiels/noop.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/test/materiels/noop.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/test/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/test/test.coveralls.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/test/test.coveralls.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/test/test.mock.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/test/test.mock.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/test/test.mock.mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/test/test.mock.mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/test/test.mock.random.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/test/test.mock.random.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/test/test.mock.request.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/test/test.mock.request.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/test/test.mock.schema.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/test/test.mock.schema.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/test/test.mock.spec.dpd.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/test/test.mock.spec.dpd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/test/test.mock.spec.dtd.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/test/test.mock.spec.dtd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/test/test.mock.valid.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/test/test.mock.valid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/node_modules/mockjs/test/valid.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/node_modules/mockjs/test/valid.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/04-Mock.js/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/04-Mock.js/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/05-Moment.js/01-解析方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/05-Moment.js/01-解析方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/05-Moment.js/js/moment-with-locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/05-Moment.js/js/moment-with-locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/05-Moment.js/js/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/05-Moment.js/js/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Lodash所需资料/01-Array方法/Array方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Lodash所需资料/01-Array方法/Array方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Lodash所需资料/01-Array方法/js/lodash.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Lodash所需资料/01-Array方法/js/lodash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Lodash所需资料/02-Collection方法/Collection方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Lodash所需资料/02-Collection方法/Collection方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Lodash所需资料/02-Collection方法/js/lodash.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Lodash所需资料/02-Collection方法/js/lodash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Lodash所需资料/03-Function方法/Function方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Lodash所需资料/03-Function方法/Function方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Lodash所需资料/03-Function方法/js/lodash.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Lodash所需资料/03-Function方法/js/lodash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Lodash所需资料/04-Lang方法/Lang方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Lodash所需资料/04-Lang方法/Lang方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Lodash所需资料/04-Lang方法/js/lodash.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Lodash所需资料/04-Lang方法/js/lodash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Lodash所需资料/05-Object方法/Object方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Lodash所需资料/05-Object方法/Object方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Lodash所需资料/05-Object方法/js/lodash.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Lodash所需资料/05-Object方法/js/lodash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Lodash所需资料/06-String方法/String方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Lodash所需资料/06-String方法/String方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Lodash所需资料/06-String方法/js/lodash.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Lodash所需资料/06-String方法/js/lodash.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Mock所需资料/01-语法规范/js/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Mock所需资料/01-语法规范/js/mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Mock所需资料/01-语法规范/语法规范.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Mock所需资料/01-语法规范/语法规范.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Mock所需资料/02-Random对象/Random对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Mock所需资料/02-Random对象/Random对象.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Mock所需资料/02-Random对象/js/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Mock所需资料/02-Random对象/js/mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Mock所需资料/03-mock方法/js/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Mock所需资料/03-mock方法/js/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Mock所需资料/03-mock方法/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Mock所需资料/03-mock方法/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Mock所需资料/03-mock方法/js/mock.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Mock所需资料/03-mock方法/js/mock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Mock所需资料/03-mock方法/mock方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Mock所需资料/03-mock方法/mock方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/01-解析方法/js/moment-with-locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/01-解析方法/js/moment-with-locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/01-解析方法/js/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/01-解析方法/js/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/01-解析方法/解析方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/01-解析方法/解析方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/02-取值、赋值方法/js/moment-with-locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/02-取值、赋值方法/js/moment-with-locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/02-取值、赋值方法/js/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/02-取值、赋值方法/js/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/02-取值、赋值方法/取值、赋值方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/02-取值、赋值方法/取值、赋值方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/03-操作、显示方法/js/moment-with-locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/03-操作、显示方法/js/moment-with-locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/03-操作、显示方法/js/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/03-操作、显示方法/js/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/03-操作、显示方法/操作、显示方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/03-操作、显示方法/操作、显示方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/04-查询方法/js/moment-with-locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/04-查询方法/js/moment-with-locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/04-查询方法/js/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/04-查询方法/js/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/04-查询方法/查询方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/04-查询方法/查询方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/05-国际化、自定义方法/js/moment-with-locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/05-国际化、自定义方法/js/moment-with-locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/05-国际化、自定义方法/js/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/05-国际化、自定义方法/js/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/05-国际化、自定义方法/国际化、自定义方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/05-国际化、自定义方法/国际化、自定义方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/06-时长方法/06-时长方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/06-时长方法/06-时长方法.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/06-时长方法/js/moment-with-locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/06-时长方法/js/moment-with-locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/06-时长方法/js/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/06-时长方法/js/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/07-案例-1/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/07-案例-1/css/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/07-案例-1/js/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/07-案例-1/js/calendar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/07-案例-1/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/07-案例-1/js/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/07-案例-1/js/moment-with-locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/07-案例-1/js/moment-with-locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/07-案例-1/js/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/07-案例-1/js/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/07-案例-1/案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/07-案例-1/案例.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/08-案例-2/css/demo.css" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/08-案例-2/css/demo.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/08-案例-2/js/calendar.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/08-案例-2/js/calendar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/08-案例-2/js/demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/08-案例-2/js/demo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/08-案例-2/js/moment-with-locales.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/08-案例-2/js/moment-with-locales.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/08-案例-2/js/moment.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/08-案例-2/js/moment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/Moment所需资料/08-案例-2/案例.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/Moment所需资料/08-案例-2/案例.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/01-jquery简介/jquery简介.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/01-jquery简介/jquery简介.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/01-jquery简介/js/jquery-1.11.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/01-jquery简介/js/jquery-1.11.3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/01-jquery简介/js/jquery-1.11.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/01-jquery简介/js/jquery-1.11.3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/01-jquery简介/js/jquery-3.4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/01-jquery简介/js/jquery-3.4.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/01-jquery简介/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/01-jquery简介/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/02-jquery选择器/jquery选择器.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/02-jquery选择器/jquery选择器.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/02-jquery选择器/js/jquery-1.11.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/02-jquery选择器/js/jquery-1.11.3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/02-jquery选择器/js/jquery-1.11.3.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/02-jquery选择器/js/jquery-1.11.3.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/02-jquery选择器/js/jquery-3.4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/02-jquery选择器/js/jquery-3.4.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/02-jquery选择器/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/02-jquery选择器/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/03-DOM操作/DOM操作.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/03-DOM操作/DOM操作.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/03-DOM操作/images/img_01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/03-DOM操作/images/img_01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/03-DOM操作/images/img_02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/03-DOM操作/images/img_02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/03-DOM操作/js/jquery-3.4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/03-DOM操作/js/jquery-3.4.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/04-遍历/js/jquery-3.4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/04-遍历/js/jquery-3.4.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/04-遍历/遍历.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/04-遍历/遍历.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/05-事件/js/jquery-3.4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/05-事件/js/jquery-3.4.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/05-事件/事件.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/05-事件/事件.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/06-内置特效/images/img_02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/06-内置特效/images/img_02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/06-内置特效/js/jquery-3.4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/06-内置特效/js/jquery-3.4.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/06-内置特效/内置特效.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/06-内置特效/内置特效.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/07-Ajax/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/07-Ajax/ajax.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/07-Ajax/js/jquery-3.4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/07-Ajax/js/jquery-3.4.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/08-jquery插件/css/fullpage.css" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/08-jquery插件/css/fullpage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/08-jquery插件/jquery插件.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/08-jquery插件/jquery插件.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/08-jquery插件/js/fullpage.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/08-jquery插件/js/fullpage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/08-jquery插件/js/jquery-3.4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/08-jquery插件/js/jquery-3.4.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/09-自定义插件/js/jquery-3.4.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/09-自定义插件/js/jquery-3.4.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/jQuery所需资料/09-自定义插件/自定义插件.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/jQuery所需资料/09-自定义插件/自定义插件.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/01-cookie/cookie.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/01-cookie/cookie.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/01-cookie/images/cookie原理.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/01-cookie/images/cookie原理.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/01-cookie/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/01-cookie/js/ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/01-cookie/js/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/01-cookie/js/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/01-cookie/js/jquery-3.4.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/01-cookie/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/02-cookie封装及应用/封装cookie操作及拖拽应用.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/02-cookie封装及应用/封装cookie操作及拖拽应用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/03-localstorage/localStorage.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/03-localstorage/localStorage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/css/shopping.css" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/css/shopping.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/ico_01.gif" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/ico_01.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/ico_02.gif" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/ico_02.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_01-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_01-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_01-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_01-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_01-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_01-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_01-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_01-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_02-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_02-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_02-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_02-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_02-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_02-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_03-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_03-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_03-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_03-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_03-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_03-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_04-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_04-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_04-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_04-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_04-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_04-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_04-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/images/img_04-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/js/ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/js/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/js/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/js/shopping.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/js/shopping.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/js/shoppingData.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/js/shoppingData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/localStorage应用-01.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/04-localstorage应用-01/localStorage应用-01.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/04-localStorage应用-02.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/04-localStorage应用-02.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/05-localStorage事件.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/05-localStorage事件.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/css/shopping.css" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/css/shopping.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/ico_01.gif" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/ico_01.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/ico_02.gif" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/ico_02.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_01-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_01-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_01-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_01-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_01-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_01-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_01-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_01-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_02-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_02-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_02-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_02-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_02-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_02-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_03-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_03-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_03-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_03-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_03-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_03-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_04-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_04-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_04-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_04-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_04-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_04-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_04-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/images/img_04-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/js/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/js/ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/js/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/js/data.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/js/shopping.js" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/js/shopping.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/js/shoppingData.json" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/05-localstorage应用-02/js/shoppingData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储所需资料/06-Restful API/Restful.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储所需资料/06-Restful API/Restful.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-js工具库/js工具库资料/本地化存储课程资料.docx" beforeDir="false" afterPath="$PROJECT_DIR$/04-js工具库/js工具库资料/本地化存储课程资料.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/css3作业/Tab栏切换/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/css3作业/Tab栏切换/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/css3作业/Tab栏切换/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/css3作业/Tab栏切换/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/css3作业/Tab栏切换/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/css3作业/Tab栏切换/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/css3作业/手风琴/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/css3作业/手风琴/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/css3作业/手风琴/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/css3作业/手风琴/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson2/lesson2-1/lesson2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson2/lesson2-1/lesson2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson2/lesson2-2/selector.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson2/lesson2-2/selector.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson3/border&amp;background1/border-radius/border-radius.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson3/border&amp;background1/border-radius/border-radius.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson3/border&amp;background1/box-shadow/box-shadow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson3/border&amp;background1/box-shadow/box-shadow.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson3/border&amp;background3/background.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson3/border&amp;background3/background.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson3/image/image.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson3/image/text.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson4/text1/eye.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/eye.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson4/text1/text.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson4/text1/text1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson4/text1/text2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson4/text1/text2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson4/text1/text3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson4/text1/text3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson4/text1/案例.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson4/text2/text2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson4/text2/text2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson5/text.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson5/text.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson5/text1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/lesson5/text1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/css3响应式资料/css3-lesson7-1.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/css3响应式资料/css3-lesson7-1.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/css3响应式资料/css3课程中照片墙3d旋转的效果中出现的问题说明.doc" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/css3响应式资料/css3课程中照片墙3d旋转的效果中出现的问题说明.doc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/css3响应式资料/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/css3响应式资料/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/css3响应式资料/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/css3响应式资料/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson3-source/lesson3.css" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson3-source/lesson3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-1-source/lesson6-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-1-source/lesson6-1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-1-source/lesson6-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-1-source/lesson6-1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-3-source/clock.png" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-3-source/clock.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-3-source/horse.png" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-3-source/horse.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-3-source/hour.png" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-3-source/hour.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-3-source/lesson6-3.css" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-3-source/lesson6-3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-3-source/lesson6-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-3-source/lesson6-3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-3-source/minute.png" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-3-source/minute.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-3-source/second.png" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-3-source/second.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-3-source/钟表素材.zip" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-3-source/钟表素材.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/lesson6-4.css" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/lesson6-4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/lesson6-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/lesson6-4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/300-blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/300-blue.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/81-blue.png" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/81-blue.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/81-red.png" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/81-red.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/border.png" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/border.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/eye.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/pic1.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/pic1.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/pic2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/pic2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/pic3.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/pic3.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/pic4.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/pic4.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/pic5.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/pic5.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/pic6.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/pic6.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/pic7.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/pic7.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/pic8.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/pic8.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/red.png" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-4-source/source/red.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-5_6/lesson6-5.css" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-5_6/lesson6-5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-5_6/lesson6-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-5_6/lesson6-5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-5_6/lesson6-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson6-5_6/lesson6-6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson7/lesson7-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson7/lesson7-2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程源码及资料/lesson7/lesson7.css" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程源码及资料/lesson7/lesson7.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程课件/CSS3 Box.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程课件/CSS3 Box.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程课件/CSS3 Production.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程课件/CSS3 Production.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程课件/CSS3 Selectors.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程课件/CSS3 Selectors.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程课件/CSS3 Text.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程课件/CSS3 Text.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程课件/CSS3 border &amp; background.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程课件/CSS3 border &amp; background.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程课件/CSS3 screen.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程课件/CSS3 screen.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04-css3/课件资料/CSS3所需资料/课程课件/CSS3 transition &amp; animation.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/05-css3/课件资料/CSS3所需资料/课程课件/CSS3 transition &amp; animation.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-网络/JSON/json.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-网络/JSON/json.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-网络/JSONP.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-网络/JSONP.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-网络/ajax.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-网络/ajax.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-网络/ajax/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/03-网络/ajax/ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-网络/ajax/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-网络/ajax/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-网络/ajax实现机器人聊天/ajax.js" beforeDir="false" afterPath="$PROJECT_DIR$/03-网络/ajax实现机器人聊天/ajax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-网络/ajax实现机器人聊天/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/03-网络/ajax实现机器人聊天/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-网络/ajax实现机器人聊天/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-网络/ajax实现机器人聊天/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-网络/ajax实现机器人聊天/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/03-网络/ajax实现机器人聊天/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-网络/request.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-网络/request.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-HTML5/html5笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/06-HTML5/html5笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-HTML5/lesson2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-HTML5/lesson2/语义化标签.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -423,7 +64,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/02-js/袁进/4.流程控制/7.[作业讲解]循环应用" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -474,7 +115,9 @@
       <workItem from="1609924964879" duration="4844000" />
       <workItem from="1609931897783" duration="2186000" />
       <workItem from="1610249485253" duration="32000" />
-      <workItem from="1610249525558" duration="1121000" />
+      <workItem from="1610249525558" duration="3806000" />
+      <workItem from="1610254244590" duration="300000" />
+      <workItem from="1610254554457" duration="3898000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1609225510659</created>
@@ -504,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609401944447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="提交">
+      <created>1610251312274</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610251312274</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
