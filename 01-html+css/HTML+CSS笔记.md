@@ -1421,3 +1421,398 @@ background-color: #000;
 background: background-image background-repeat  background-posiziton / background-size  background-attachment
 ```
 
+# iframe元素
+
+框架页
+
+通常用于在网页中嵌入另一个页面
+
+iframe 可替换元素
+
+1. 通常行盒
+2. 通常显示的内容取决于元素的属性
+3. CSS不能完全控制其中的样式
+4. 具有行快盒的特点
+```html
+<body>
+    <a href="https://www.baidu.com" target="myframe">百度</a>
+    <a href="https://douyu.com" target="myframe">斗鱼</a>
+    <a href="https://www.taobao.com" target="myframe">淘宝</a>
+
+    <iframe name="myframe" src="https://www.baidu.com"></iframe>
+</body>
+```
+
+
+# 在页面中使用flash
+
+object
+
+embed
+
+它们都是可替换元素
+
+MIME(Multipurpose Internet Mail Extensions)
+
+多用途互联网邮件类型：
+
+比如，资源是一个jpg图片，MIME：image/jpeg
+
+```html
+<object data="./example.swf" type="application/x-shockwave-flash">
+        <param name="quality" value="high">
+        <embed quality="high" src="./example.swf" type="application/x-shockwave-flash">
+</object>
+```
+
+
+# 表单元素
+
+一系列元素，主要用于收集用户数据
+
+## input元素
+
+输入框
+
+- type属性：输入框类型
+
+type: text， 普通文本输入框
+type：password，密码框
+type: date, 日期选择框，兼容性问题
+type: search, 搜索框，兼容性问题
+type: number，数字输入框
+type: checkbox，多选框
+type: radio，单选框
+
+- value属性：输入框的值
+- placeholder属性：显示提示的文本，文本框没有内容时显示
+
+
+input元素可以制作按钮
+
+当type值为reset、button、submit时，input表示按钮。
+
+## select元素
+
+下拉列表选择框
+
+通常和option元素配合使用
+
+```html
+<select name="" id="">
+    <option value="">西安</option>
+    <option value="">银川</option>
+    <option value="">成都</option>
+    <option value="">北京</option>
+  </select>
+```
+
+## textarea元素
+
+文本域，多行文本框
+
+## 按钮元素
+
+button
+
+type属性：reset、submit、button，默认值submit
+
+## 表单状态
+
+readonly属性：布尔属性，是否只读，不会改变表单显示样式
+
+disabled属性：布尔属性，是否禁用，会改变表单显示样式
+
+## 配合表单元素的其他元素
+
+### label
+
+普通元素，通常配合单选和多选框使用
+
+- 显示关联
+
+可以通过for属性，让label元素关联某一个表单元素，for属性书写表单元素id的值
+
+- 隐式关联
+
+```html
+请选择性别：
+  <input type="radio" name="sex" id="radMal">
+  <label for="radMal">男</label>
+
+  <input type="radio" name="sex" id="radFemal">
+  <label for="radFemal">女</label>
+```
+
+### datalist
+
+数据列表
+
+该元素本身不会显示到页面，通常用于和普通文本框配合
+
+```js
+<p>
+    <input type="text" list="userAgent">
+  </p>
+
+  <datalist id="userAgent">
+    <option value="Chrome">谷歌浏览器</option>
+    <option value="IE">IE浏览器</option>
+    <option value="Opera">欧朋浏览器</option>
+    <option value="Safari">苹果浏览器</option>
+  </datalist>
+```
+![img.png](img.png)
+
+### form元素
+
+通常，会将整个表单元素，放置form元素的内部，作用是当提交表单时，会将form元素内部的表单内容以合适的方式提交到服务器。
+
+form元素对开发静态页面没有什么意义。
+
+### fieldset元素
+
+表单分组
+
+```html
+    <div>
+        <h1>修改用户信息</h1>
+        <fieldset>
+            <legend>账号信息</legend>
+            <p>
+                用户账号：
+                <input type="text" value="aaaaa" readonly>
+            </p>
+            <p>
+                用户密码：
+                <input type="password">
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>基本信息</legend>
+            <p>
+                用户姓名：
+                <input disabled value="袁进" type="text">
+            </p>
+            <p>
+                城市：
+                <select disabled name="" id="">
+                    <option value="">Lorem.</option>
+                    <option value="">Vel!</option>
+                    <option value="">Dolore?</option>
+                    <option value="">Autem?</option>
+                    <option value="">Nulla?</option>
+                    <option value="">Aliquam?</option>
+                    <option value="">Obcaecati!</option>
+                    <option value="">Nulla!</option>
+                    <option value="">Totam.</option>
+                    <option value="">Ipsum.</option>
+                </select>
+            </p>
+        </fieldset>
+```
+![img_1.png](img_1.png)
+
+
+
+# 美化表单元素
+
+## 新的伪类
+
+1. focus
+
+元素聚焦时的样式
+
+2. checked
+
+单选或多选框被选中的样式
+
+## 常见用法
+
+1. 重置表单元素样式
+
+2. 设置textarea是否允许调整尺寸
+
+css属性resize：
+
+- both：默认值，两个方向都可以调整尺寸
+- none：不能调整尺寸
+- horizontal: 水平方向可以调整尺寸
+- vertical：垂直方向可以调整尺寸
+
+3. 文本框边缘到内容的距离
+
+4. 控制单选和多选的样式
+
+
+
+# 表格元素
+
+在css技术出现之前，网页通常使用表格布局。
+
+后台管理系统中可能会使用表格。
+
+前台：面向用户
+
+后台：面向管理员。对界面要求不高，对功能性要求高。
+
+表格不再适用于网页布局？表格的渲染速度过慢。
+
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)
+![img_4.png](img_4.png)
+
+
+
+
+# 其他元素
+
+1. abbr
+
+缩写词
+
+```html
+<p>
+   <abbr title="cascading style sheet">CSS</abbr> 是用于为页面添加样式
+</p>
+```
+
+2. time
+
+提供给浏览器或搜索引擎阅读的时间
+
+```html
+<p>
+   <time datetime="2019-5-1">今年5月</time>
+   我录制了HTML 和 CSS的课程
+</p>
+```
+
+3. b  （bold）
+
+以前是一个无语义元素，主要用于加粗字体
+
+```html
+<p>
+   我们学校有两个课程非常受欢迎，<b>HTML&CSS</b> 和 <b>JS</b>
+</p>
+```
+
+4. q
+
+一小段引用文本
+
+```html
+<p>
+   最近热播的美剧《权力的游戏》中有一句经典台词：<q>在权力的斗争中，非胜即死，没有中间状态</q>
+</p>
+```
+
+5. blockquote
+
+大段引用的文本
+
+```html
+
+<blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+   The HTML &lt;blockquote&gt; Element (or HTML Block Quotation Element) indicates that the enclosed text is an extended
+   quotation. Usually, this is rendered visually by indentation (see Notes for how to change it). A URL for the source
+   of the quotation may be given using the cite attribute, while a text representation of the source can be given using
+   the &lt;cite&gt; element.
+</blockquote>
+```
+
+6. br
+
+无语义
+主要用于在文本中换行
+
+7. hr
+
+无语义
+主要用于分割
+
+8. meta
+
+还可以用于搜索引擎优化（SEO）
+
+```html
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="keywords" content="在线商城,美容,微整形">
+<meta name="author" content="yuanjin,sdfasdfadf@qq.com">
+<meta name="description" content="asdfasdf asfasfasd fasf asd fsd sa f">
+```
+
+9.  link
+
+链接外部资源（CSS、图标）
+
+rel属性：relation，链接的资源和当前网页的关系
+
+type属性：链接的资源的MIME类型
+
+```html
+link rel="stylesheet" type="text/css" href="test3.css">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+```
+
+
+# @规则
+
+at-rule:@规则、@语句、@指令、css语句
+
+1. import
+
+@import "路径"；
+
+导入另外一个css文件
+
+![img_5.png](img_5.png)
+
+2. charset
+
+@charset "utf-8";
+
+告诉浏览器css文件，使用的字符编码集是utf-8，必须写到第一行;
+
+
+
+# web字体和图标
+
+## web字体
+
+解决用户电脑上没有安装相应字体的问题，强制让用户下载该字体
+
+使用@font-face制作一个新字体
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>web字体</title>
+    <style>
+        @font-face {
+            font-family: "good night";
+            src: url("font/晚安体.ttf");
+        }
+        p {
+            font-family: "good night";
+        }
+    </style>
+</head>
+<body>
+<p>
+    中文文文文文
+</p>
+</body>
+</html>
+```
+
+## 字体图标
+
+网址：iconfont.cn

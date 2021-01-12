@@ -1,0 +1,162 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.top {
+    height: 86px;
+    background: #00a0d8;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form {
+    width: 980px;
+    margin: 0 auto;
+}
+.form h2 {
+    text-align: center;
+    font-size: 38px;
+    border-bottom: 1px solid #ddd;
+    height: 20px;
+    margin-bottom: 88px;
+}
+.form h2 span {
+    background: #fff;
+    padding: 0 20px;
+}
+.form .form-area {
+    width: 527px;
+    margin: 0 auto;
+}
+.form .form-item {
+    position: relative;
+}
+.form .form-item .selected {
+    margin-bottom: 50px;
+}
+.form .form-item .selected .selected-item,
+.form .form-item .input {
+    height: 40px;
+    float: left;
+    box-sizing: border-box;
+}
+.form .form-item .selected .selected-item {
+    width: 140px;
+    border: 1px solid #dcdfe6;
+    border-radius: 4px 0px 0px 4px;
+    border-right: none;
+    position: relative;
+}
+.form .form-item .selected .selected-item .title {
+    font-size: 14px;
+    color: #909399;
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+}
+.form .form-item .selected .input input {
+    width: 387px;
+    border-radius: 0px 4px 4px 0;
+}
+.form .form-item .selected .selected-item .country-code {
+    display: none;
+    max-height: 256px;
+    width: 100%;
+    border: 1px solid #dcdfe6;
+    box-sizing: border-box;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    z-index: 1;
+    background: #fff;
+    color: #606266;
+    cursor: pointer;
+    overflow-y: auto;
+    font-size: 14px;
+
+}
+.form .form-item .selected .selected-item .country-code .active {
+    color: #00a1d6;
+    font-weight: bold;
+}
+.form .form-item .selected .selected-item .country-code li {
+    height: 34px;
+    line-height: 34px;
+    padding: 0 20px;
+}
+.form .form-item .selected .selected-item .country-code li:hover {
+    background: #f5f7fa;
+}
+.form .form-item .btn-sncode {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+}
+.form .form-item .btn-sncode:hover {
+    background: #33b4de;
+    border: #33b4de;
+}
+.form .form-area .readme {
+    font-size: 12px;
+    margin-top: -50px;
+    padding: 10px 0;
+    cursor: pointer;
+
+}
+.form .form-area .readme span a {
+    color: #00a1d6;
+}
+
+/*输入框统一属性*/
+input[type="text"],input[type="password"] {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #dcdfe6;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    text-indent: 1em;
+    font-size: 14px;
+    color: #606266;
+    font-family: "PingFangSC-Medium";
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+    color: #ccc;
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover {
+    border-color: #c0c4cc;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #409eff;
+}
+
+
+
+/*button按钮*/
+button {
+    background: #00A1D6;
+    width: 130px;
+    height: 36px;
+    color: #fff;
+    border: #33b4de;
+    border-radius: 4px;
+}
+button.fill {
+    width: 100%;
+    box-sizing: border-box;
+}
+.txtright {
+    text-align: right;
+    color: #00a1d6;
+    font-size: 12px;
+    margin-top: 20px;
+}

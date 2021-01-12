@@ -5,13 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca2e945f-5dc2-43f3-8010-708424134401" name="Default Changelist" comment="提交">
-      <change afterPath="$PROJECT_DIR$/06-HTML5/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-HTML5/lesson2/canvas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-HTML5/lesson2/方形.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/3.HTML进阶/5.表单练习/image/top.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/3.HTML进阶/6.表格元素/table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/3.HTML进阶/6.表格元素/说明/术语1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/3.HTML进阶/6.表格元素/说明/术语2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/3.HTML进阶/6.表格元素/说明/术语3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/3.HTML进阶/7.其他元素/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/4.css进阶/1.@规则/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/4.css进阶/1.@规则/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/4.css进阶/1.@规则/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/4.css进阶/2.web字体和图标/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/4.css进阶/2.web字体和图标/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/4.css进阶/2.web字体和图标/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/4.css进阶/2.web字体和图标/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/4.css进阶/2.web字体和图标/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/4.css进阶/2.web字体和图标/font/晚安体.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/4.css进阶/2.web字体和图标/web字体.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/img_5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-HTML5/html5笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/06-HTML5/html5笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-HTML5/lesson2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-HTML5/lesson2/语义化标签.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html+css/3.HTML进阶/5.表单练习/css/reg.css" beforeDir="false" afterPath="$PROJECT_DIR$/01-html+css/3.HTML进阶/5.表单练习/css/reg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html+css/3.HTML进阶/5.表单练习/reg.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-html+css/3.HTML进阶/5.表单练习/reg.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html+css/HTML+CSS笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/01-html+css/HTML+CSS笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +40,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML4 File" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -62,18 +81,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/02-js/袁进/4.流程控制/7.[作业讲解]循环应用" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/01-html+css/4.css进阶/2.web字体和图标" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\StudyDemo\01-html+css\4.css进阶\2.web字体和图标" />
+      <recent name="D:\StudyDemo\01-html+css\4.css进阶\1.@规则" />
+      <recent name="D:\StudyDemo\01-html+css\3.HTML进阶\6.表格元素" />
       <recent name="D:\StudyDemo\02-js\袁进\4.流程控制\7.[作业讲解]循环应用" />
       <recent name="D:\StudyDemo\demo\婚礼祝福墙\css" />
-      <recent name="D:\StudyDemo\01-html+css" />
-      <recent name="D:\StudyDemo\01-html+css\3.HTML进阶\5.表单练习\css" />
-      <recent name="D:\StudyDemo\02-js\袁进\4.流程控制\4.switch开关" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.3.html">
@@ -117,7 +136,11 @@
       <workItem from="1610249485253" duration="32000" />
       <workItem from="1610249525558" duration="3806000" />
       <workItem from="1610254244590" duration="300000" />
-      <workItem from="1610254554457" duration="3898000" />
+      <workItem from="1610254554457" duration="4101000" />
+      <workItem from="1610278633811" duration="599000" />
+      <workItem from="1610344418817" duration="9214000" />
+      <workItem from="1610363310541" duration="3350000" />
+      <workItem from="1610415621901" duration="2992000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1609225510659</created>
@@ -154,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610251312274</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="提交">
+      <created>1610261023454</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1610261023454</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
