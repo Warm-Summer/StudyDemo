@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>圆形&弧度</title>
+    <style>
+        canvas {
+            width: 500px;
+            height: 300px;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+
+<canvas id="isCanvas" width="500px" height="300px"></canvas>
+
+<!--圆心（x，y），半径(r),弧度（起始弧度，结束弧度：Math.PI = 180度），方向(顺时针0，逆时针1)-->
+<script>
+    var canvas = document.getElementById("isCanvas");
+    var ctx = canvas.getContext("2d");
+
+    // 圆心：100,100 半径为：50， 起始弧度为0，结束弧度为90度，顺时针
+    // ctx.arc(100, 100, 50, 0, Math.PI / 2, 0);
+    // 圆心：100,100 半径为：50， 起始弧度为0，结束弧度为90度，逆时针
+    // ctx.arc(100, 100, 50, 0, Math.PI / 2, 1);
+
+
+    // 练习
+    ctx.arc(100, 100, 50, 0, Math.PI * 1.9, 0);
+    ctx.lineTo(100,100);
+    ctx.closePath();
+    ctx.stroke();
+</script>
+</body>
+</html>

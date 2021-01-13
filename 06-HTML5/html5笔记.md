@@ -14,16 +14,16 @@
 
 ### Calendar类
 
-data：日期 chrome支持，safari，IE不支持
-time：时间 chrome支持，safari，IE不支持
-week：周  chrome支持，safari，IE不支持
-datetime-loca：日期+周数 chrome支持，safari，IE不支持
-number：数字（只能输入数字） chrome支持，safari、IE不支持
-email：邮箱    chrome、火狐支持，Safari、IE不支持
-color：颜色    chrome支持，safari、IE不支持
-range：滑动块   chrome、safari支持，火狐、IE不支持
-search：提示（浏览器密码提示）   chrome支持，safari支持一点，IE不支持
-url：地址  chrome、火狐支持，safari、IE不支持
+- data：日期 chrome支持，safari，IE不支持
+- time：时间 chrome支持，safari，IE不支持
+- week：周  chrome支持，safari，IE不支持
+- datetime-loca：日期+周数 chrome支持，safari，IE不支持
+- number：数字（只能输入数字） chrome支持，safari、IE不支持
+- email：邮箱    chrome、火狐支持，Safari、IE不支持
+- color：颜色    chrome支持，safari、IE不支持
+- range：滑动块   chrome、safari支持，火狐、IE不支持
+- search：提示（浏览器密码提示）   chrome支持，safari支持一点，IE不支持
+- url：地址  chrome、火狐支持，safari、IE不支持
 
 ## contenteditable属性
 
@@ -173,3 +173,43 @@ canvas:相当于一块画布，可以在里面绘制动画
     ctx.stroke();
 </script>
 ```
+
+
+## 圆形绘制
+
+绘制圆形必须要有：
+
+- 圆心：x，y
+- 半径：r
+- 弧度：起始弧度，结束弧度；弧度一般用Math.PI表示，Math.PI = 180°。
+- 顺时针，逆时针；顺时针用**0**表示，逆时针用**1**表示；
+
+```js
+<canvas id="isCanvas" width="500px" height="300px"></canvas>
+
+<!--圆心（x，y），半径(r),弧度（起始弧度，结束弧度：Math.PI = 180度），方向(顺时针0，逆时针1)-->
+<script>
+    var canvas = document.getElementById("isCanvas");
+    var ctx = canvas.getContext("2d");
+
+    // 圆心：100,100 半径为：50， 起始弧度为0，结束弧度为90度，顺时针
+    ctx.arc(100, 100, 50, 0, Math.PI / 2, 0);
+    
+    // 圆心：100,100 半径为：50， 起始弧度为0，结束弧度为90度，逆时针
+    ctx.arc(100, 100, 50, 0, Math.PI / 2, 1);
+    
+    ctx.stroke();
+</script>
+```
+![img_4.png](img_4.png)
+
+![img_5.png](img_5.png)
+
+```js
+    ctx.arc(100, 100, 50, 0, Math.PI * 1.9, 0);
+    ctx.lineTo(100,100);
+    ctx.closePath();
+    ctx.stroke();
+
+```
+![img_6.png](img_6.png)
