@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>贝塞尔曲线</title>
+    <style>
+        canvas {
+            width: 500px;
+            height: 500px;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+<canvas id="isCanvas" width="500px" height="500px"></canvas>
+
+<script>
+    var canvas = document.getElementById("isCanvas");
+    var ctx = canvas.getContext("2d");
+
+    ctx.beginPath();
+    ctx.moveTo(100, 100);
+    // 二次贝塞尔曲线
+    // ctx.quadraticCurveTo(300, 300, 500, 100);
+    // 三次贝塞尔曲线;
+    ctx.bezierCurveTo(200, 400, 300, 100, 400, 300);
+    ctx.stroke();
+</script>
+</body>
+</html>

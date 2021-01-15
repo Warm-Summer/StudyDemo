@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>背景填充</title>
+    <style>
+        canvas {
+            width: 500px;
+            height: 300px;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+<canvas id="isCanvas" width="500px" height="300px"></canvas>
+
+<script>
+    var canvas = document.getElementById("isCanvas");
+    var ctx = canvas.getContext("2d");
+
+    ctx.beginPath();
+
+    // 背景填充
+    // var img = new Image();
+    // img.src = "../img_6.png";
+    //
+    // img.onload = function () {
+    //     ctx.beginPath();
+    //     ctx.translate(100, 100);
+    //     var bg = ctx.createPattern(img, "no-repeat");
+    //     ctx.fillStyle = bg;
+    //     ctx.fillRect(0, 0, 200, 100);
+    // }
+
+    // 线性渐变
+
+    // var bg = ctx.createLinearGradient(0, 0, 200, 0);
+    // bg.addColorStop(0, "white");
+    // bg.addColorStop(0.5, "yellow")
+    // bg.addColorStop(1, "black");
+    // ctx.fillStyle = bg;
+    // ctx.fillRect(0, 0, 200, 100);
+
+    // 辐射渐变
+    var bg = ctx.createRadialGradient(100, 100, 30, 100, 100, 100);
+    bg.addColorStop(0, "red");
+    bg.addColorStop(0.5, "green");
+    bg.addColorStop(1, "blue");
+    ctx.fillStyle = bg;
+    ctx.fillRect(0, 0, 200, 200);
+</script>
+</body>
+</html>

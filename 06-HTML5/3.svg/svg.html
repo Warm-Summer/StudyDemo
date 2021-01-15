@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>svg</title>
+    <style>
+        svg {
+            width: 500px;
+            height: 500px;
+            border: 1px solid;
+        }
+        .line1 {
+            stroke: black;
+            stroke-width: 5px;
+        }
+        .line2 {
+            stroke: red;
+            stroke-width: 10px;
+        }
+    </style>
+</head>
+<body>
+<svg>
+    <line x1="100" y1="100" x2="200" y2="100" class="line1"></line>
+    <line x1="200" y1="100" x2="200" y2="200" class="line2"></line>
+    <rect height="50px" width="100px" x="0" y="0" rx="5" ry="5"></rect>
+</svg>
+</body>
+</html>

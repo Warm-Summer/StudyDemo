@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>绘制文字</title>
+    <style>
+        canvas {
+            width: 500px;
+            height: 300px;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+<canvas id="isCanvas" width="500px" height="300px"></canvas>
+
+<script>
+    var canvas = document.getElementById("isCanvas");
+    var ctx = canvas.getContext("2d");
+
+    ctx.beginPath();
+    ctx.strokeRect(0, 0, 200, 200);
+
+    ctx.font = "30px Georgia";//font对strokeText和fillText都起作用
+    ctx.strokeText("Summer", 100, 200);//文字描边，空心
+
+    ctx.fillStyle = "red";
+    ctx.fillText("Wram", 300, 100);//文字填充，比较虚，是正常的文字输入
+
+
+</script>
+</body>
+</html>

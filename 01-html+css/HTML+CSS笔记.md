@@ -6,7 +6,7 @@ Emmet插件：自动生成HTML代码片段
 
 注释为代码的阅读者提供帮助，注释不参与运行
 
-在HTML中，主食食用如下格式书写：
+在HTML中，主要使用如下格式书写：
 
 ```html
 <!-- 注释内容，可以写多行 -->
@@ -59,7 +59,7 @@ HTML：页面，HTML文档
 
 文档声明：告诉浏览器，当前文档使用的HTML标准是HTML5.
 
-不懈文档声明，将导致浏览器进入怪异渲染模式。
+不写文档声明，将导致浏览器进入怪异渲染模式。
 
 ```html
 <html lang="en"> </html>
@@ -292,7 +292,7 @@ target取值：
    url地址：
 
 ```
-协议名：//主机名：款口号/路径
+协议名：//主机名：端口号/路径
 
 schema://host:post
 ```
@@ -463,11 +463,11 @@ css规则 = 选择器 + 声明块
 
 1. 内部样式表
 
-   书写在style元素中
+   书写在style**元素**中
 
 2. 内联样式表，元素样式表
 
-   直接书写在元素的style属性中
+   直接书写在元素的style**属性**中
 
 3. 外部样式表[推荐]
 
@@ -1562,7 +1562,7 @@ disabled属性：布尔属性，是否禁用，会改变表单显示样式
     <option value="Safari">苹果浏览器</option>
   </datalist>
 ```
-![img.png](img.png)
+![img.png](截图/img.png)
 
 ### form元素
 
@@ -1612,7 +1612,7 @@ form元素对开发静态页面没有什么意义。
             </p>
         </fieldset>
 ```
-![img_1.png](img_1.png)
+![img_1.png](截图/img_1.png)
 
 
 
@@ -1659,9 +1659,9 @@ css属性resize：
 
 表格不再适用于网页布局？表格的渲染速度过慢。
 
-![img_2.png](img_2.png)
-![img_3.png](img_3.png)
-![img_4.png](img_4.png)
+![img_2.png](截图/img_2.png)
+![img_3.png](截图/img_3.png)
+![img_4.png](截图/img_4.png)
 
 
 
@@ -1771,7 +1771,7 @@ at-rule:@规则、@语句、@指令、css语句
 
 导入另外一个css文件
 
-![img_5.png](img_5.png)
+![img_5.png](截图/img_5.png)
 
 2. charset
 
@@ -1816,3 +1816,201 @@ at-rule:@规则、@语句、@指令、css语句
 ## 字体图标
 
 网址：iconfont.cn
+
+
+# 块级格式化上下文BFC
+
+![img_3.png](截图/img_9.png)
+
+作用：
+
+- 创建BFC的元素，它的自动高度需要计算浮动元素
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test1</title>
+    <style>
+        .container {
+            background: lightblue;
+            /*
+            使用BFC解决高度坍塌，只需要给BFC区域设置以下三种方法即可：
+            1. display: position;
+            2. float:left;
+            3.overflow:hidden/scroll/auto;
+            */
+            overflow: hidden;
+        }
+
+        .item {
+            width: 200px;
+            height: 200px;
+            background: red;
+            float: left;
+            margin: 10px;
+        }
+
+        /*这是以往我们解决子元素浮动，父元素高度坍塌的方法*/
+        /*.clearfix::after {*/
+        /*    content: "";*/
+        /*    display: block;*/
+        /*    clear: both;*/
+        /*}*/
+    </style>
+</head>
+<body>
+<div class="container clearfix">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+</div>
+</body>
+</html>
+
+```
+![img.png](截图/img_6.png)
+
+- 创建BFC的元素，它的边框不会和浮动元素重叠
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test2</title>
+    <style>
+        .float {
+            width: 200px;
+            height: 200px;
+            background: red;
+            margin: 20px;
+            float: left;
+        }
+        .container {
+            height: 300px;
+            background: #008c8c;
+            /*创建BFC区域*/
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+<div class="float"></div>
+<div class="container"></div>
+</body>
+</html>
+
+```
+
+![img_1.png](截图/img_7.png)
+
+- 创建BFC的元素，不会和它的子元素进行外边距合并
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test3</title>
+    <style>
+        /*父元素和子元素外边距合并问题*/
+        .parent {
+            height: 500px;
+            background: #008c8c;
+            margin-top: 30px;
+            /*创建BFC区域*/
+            overflow: hidden;
+        }
+
+        .child {
+            height: 100px;
+            background: red;
+            margin: 50px;
+        }
+    </style>
+</head>
+<body>
+<div class="parent">
+    <div class="child"></div>
+</div>
+</body>
+</html>
+
+```
+
+![img_2.png](截图/img_8.png)
+
+
+
+# 行高的取值
+
+```html
+<head>
+    <meta charset="UTF-8">
+    <title>行高</title>
+    <style>
+        .container {
+            /*行高为字体大小的2倍，先计算像素值，再继承*/
+            line-height: 2em;
+
+            /*行高为字体大小的2倍，先继承，在计算*/
+            line-height: 2;
+        }
+
+        .p1 {
+            font-size: 40px;
+        }
+
+        .p2 {
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus amet asperiores at, deleniti dolorem enim eos est hic in ipsam maiores minus non numquam optio quam reprehenderit rerum sunt voluptate.</p>
+    <p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium aliquid aut commodi delectus deserunt, doloribus earum eos esse eum fuga impedit libero officiis reiciendis repellat soluta tenetur voluptatem! Autem, quidem?</p>
+</div>
+</body>
+```
+
+![img.png](截图/img_10.png)
+
+
+
+# body背景
+
+**画布 canvas**
+
+一块区域
+
+特点：
+
+1. 最小宽度为视口宽度
+2. 最小高度为视口高度
+
+**HTML元素的背景**
+
+覆盖画布
+
+**BODY元素的背景**
+
+如果HTML元素有背景，BODY元素正常（背景覆盖边框盒）
+
+如果HTML元素没有背景，BODY元素的背景覆盖画布
+
+**关于画布背景图**
+
+1. 背景图的宽度百分比，相对于视口
+2. 背景图的高度百分比，相对于网页高度
+3. 背景图的横向位置百分比、预设值，相对于视口
+4. 背景图的纵向位置百分比、预设值，相对于网页高度

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test1</title>
+    <style>
+        .container {
+            background: lightblue;
+            /*
+            使用BFC解决高度坍塌，只需要给BFC区域设置以下三种方法即可：
+            1. display: position;
+            2. float:left;
+            3.overflow:hidden/scroll/auto;
+            */
+            overflow: hidden;
+        }
+
+        .item {
+            width: 200px;
+            height: 200px;
+            background: red;
+            float: left;
+            margin: 10px;
+        }
+
+        /*这是以往我们解决子元素浮动，父元素高度坍塌的方法*/
+        /*.clearfix::after {*/
+        /*    content: "";*/
+        /*    display: block;*/
+        /*    clear: both;*/
+        /*}*/
+    </style>
+</head>
+<body>
+<div class="container clearfix">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+</div>
+</body>
+</html>
