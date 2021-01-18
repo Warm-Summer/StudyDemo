@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca2e945f-5dc2-43f3-8010-708424134401" name="Default Changelist" comment="提交">
-      <change afterPath="$PROJECT_DIR$/06-HTML5/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-HTML5/3.svg/path元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-HTML5/3.svg/线性渐变&amp;高斯模糊.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-HTML5/4.audio&amp;video/audio&amp;video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-HTML5/截图/img_24.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-HTML5/截图/img_25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-HTML5/班会.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/检测题库/HTML5.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-HTML5/直播课程/雪花.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01-html+css/HTML+CSS笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/01-html+css/HTML+CSS笔记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-HTML5/3.svg/圆&amp;椭圆&amp;折线.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-HTML5/3.svg/圆&amp;椭圆&amp;折线.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-HTML5/html5笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/06-HTML5/html5笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-HTML5/1.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,18 +60,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/01-html+css/4.css进阶/7.[扩展]body背景" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\StudyDemo\01-html+css\5.豆瓣首页项目实战\css" />
+      <recent name="D:\StudyDemo\01-html+css\5.豆瓣首页项目实战" />
+      <recent name="D:\StudyDemo\01-html+css\4.css进阶\9.[扩展]参考线-深入理解字体" />
       <recent name="D:\StudyDemo\01-html+css\4.css进阶\7.[扩展]body背景" />
       <recent name="D:\StudyDemo\01-html+css\4.css进阶\5.[扩展]浮动的细节规则" />
-      <recent name="D:\StudyDemo\01-html+css\4.css进阶\3.块级上下文" />
-      <recent name="D:\StudyDemo\01-html+css\4.css进阶" />
-      <recent name="D:\StudyDemo\01-html+css\4.css进阶\2.web字体和图标" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\StudyDemo\01-html+css\截图" />
@@ -138,7 +131,7 @@
       <workItem from="1610604506350" duration="10180000" />
       <workItem from="1610672988518" duration="9117000" />
       <workItem from="1610876414898" duration="5618000" />
-      <workItem from="1610933685171" duration="9818000" />
+      <workItem from="1610933685171" duration="11815000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1609225510659</created>
@@ -203,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610676902105</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit">
+      <created>1610954550469</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610954550469</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +224,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
