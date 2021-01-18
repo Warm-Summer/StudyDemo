@@ -585,6 +585,7 @@ scale:缩放/放大
 
 - polyline元素，所需属性：points 每个点的位置，一个点与一个点之间使用逗号隔开
 - polyline和polygon的区别：polyline  到结束点就会停止；   polygon  到结束点会闭合，成为多边形
+- 其他属性：stroke-opacity: 0.3; 透明度     stroke-linecap: round;  帽   stroke-linejoin: miter-clip; 线与线相接尖锐的处理
 
 4. 因为均为封闭图形，所以都有填充颜色，如果只想要边框不要填充，则可以在css中使用以下属性：
 - fill：transparent;   填充背景为透明
@@ -634,5 +635,55 @@ scale:缩放/放大
 
 ```
 ![img_23.png](截图/img_23.png)
+
+
+## 线性渐变
+
+1. 线性渐变首先得定义在 defs元素中，想使用时在调用
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>线性渐变</title>
+    <style>
+        svg {
+            width: 500px;
+            height: 500px;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+<svg>
+    <defs>
+        <linearGradient id="bg1" x1="0" y1="0" x2="0" y2="100%">
+            <stop offset="0%" style="stop-color: yellow"></stop>
+            <stop offset="100%" style="stop-color: red"></stop>
+        </linearGradient>
+    </defs>
+
+    <rect x="0" y="0" width="200px" height="100px" style="fill: url(#bg1)"></rect>
+</svg>
+</body>
+</html>
+
+```
+![img_24.png](截图/img_24.png)
+
+
+## 高斯模糊
+
+```html
+<defs>
+    <filter id="Gaussian">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="10"></feGaussianBlur>
+    </filter>
+</defs>
+
+<rect x="0" y="0" width="200px" height="100px" style="fill: url(#bg1); filter:url(#Gaussian)"></rect>
+```
+![img_25.png](截图/img_25.png)
 
 

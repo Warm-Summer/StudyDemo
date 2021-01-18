@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>线性渐变</title>
+    <style>
+        svg {
+            width: 500px;
+            height: 500px;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+<svg>
+    <defs>
+<!--线性渐变-->
+        <linearGradient id="bg1" x1="0" y1="0" x2="0" y2="100%">
+            <stop offset="0%" style="stop-color: yellow"></stop>
+            <stop offset="100%" style="stop-color: red"></stop>
+        </linearGradient>
+<!--高斯模糊-->
+        <filter id="Gaussian">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10"></feGaussianBlur>
+        </filter>
+    </defs>
+
+    <rect x="0" y="0" width="200px" height="100px" style="fill: url(#bg1); filter:url(#Gaussian)"></rect>
+</svg>
+</body>
+</html>
