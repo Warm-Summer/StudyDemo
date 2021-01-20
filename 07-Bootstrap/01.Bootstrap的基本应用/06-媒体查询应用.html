@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>媒体查询应用</title>
+    <style>
+        .isDiv {
+            padding: 50px 0;
+            border: 1px solid;
+        }
+
+        .isDiv:after {
+            content: "这是一所房子";
+        }
+
+        @media all and (max-width: 600px) {
+            .isDiv:after {
+                content: "房子变小了";
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="isDiv"></div>
+</body>
+</html>

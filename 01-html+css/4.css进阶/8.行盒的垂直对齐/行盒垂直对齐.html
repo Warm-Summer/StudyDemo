@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>行盒垂直对齐</title>
+    <style>
+        input[type="checkbox"] {
+             /*解决方案：添加vertical-align属性 */
+             /*需要注意的是，vertical-align只能在行盒中使用 */
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+<!--多个行盒垂直对齐问题-->
+<!--现在存在的问题就是：多选框和span元素里的文字没有对齐-->
+<p>
+    <input type="checkbox">
+    <span>我同意xxx</span>
+</p>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>逻辑运算符</title>
+    <style>
+        .isDiv {
+            width: 200px;
+            height: 200px;
+            background: red;
+        }
+
+        /*屏幕的尺寸比700大的时候以及横屏的时候满足*/
+        @media all and (min-width: 700px) and (orientation: landscape) {
+            .isDiv {
+                background: gold;
+            }
+        }
+
+        /*屏幕尺寸小于800，或者屏幕为横屏的时候满足*/
+        @media (max-width: 800px),(orientation: landscape) {
+            .isDiv {
+                background: pink;
+            }
+        }
+
+        /*屏幕尺寸大于800，整个才满足*/
+        @media not all and (max-width: 800px) {
+            .isDiv {
+                background: blue;
+            }
+        }
+
+        @media only screen and (min-width: 1000px) {
+            .isDiv {
+                background: yellow;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="isDiv">逻辑运算符</div>
+</body>
+</html>

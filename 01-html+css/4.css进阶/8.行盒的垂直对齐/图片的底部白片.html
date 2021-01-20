@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图片的底部百片</title>
+    <style>
+        .box {
+            border: 1px solid;
+            /*font-size: 0;*/
+        }
+        .box img {
+            display: block;
+        }
+    /*
+        解决方案：
+        1. 设置父元素的font-size为0；[缺点在于字体大小会被继承，后面一些新元素输入内容无法显示]
+        2. 设置图片的display属性为block
+    */
+    </style>
+</head>
+<body>
+<div class="box">
+<!--
+问题：
+    图片外面包着一个块盒，图片距离底部会有一些白色的部分
+    当字体越大，底部百边就会越多
+ -->
+    <img src="img.png" alt="">
+</div>
+</body>
+</html>

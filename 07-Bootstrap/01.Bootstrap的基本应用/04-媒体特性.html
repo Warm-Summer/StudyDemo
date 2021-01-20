@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>媒体特性</title>
+    <style>
+        .isDiv {
+            width: 100px;
+            height: 100px;
+            background: red;
+        }
+
+        /*屏幕尺寸大于500的时候*/
+        @media (min-width: 500px) {
+            .isDiv {
+                background: #008c8c;
+            }
+        }
+
+        /*屏幕尺寸小于600的时候*/
+        @media (max-width: 600px) {
+            .isDiv {
+                background: black;
+            }
+        }
+
+        /*横屏*/
+        @media (orientation: landscape) {
+            .isDiv {
+                width: 400px;
+                height: 100px;
+            }
+        }
+
+        /*竖屏*/
+        @media (orientation: portrait) {
+            .isDiv {
+                width: 100px;
+                height: 400px;
+            }
+        }
+
+        /*宽高比*/
+        @media (aspect-ratio: 4/3) {
+            .isDiv {
+                border: 3px solid #ffff00;
+            }
+        }
+
+        /*像素比*/
+        @media (-webkit-device-pixel-ratio: 2) {
+            .isDiv:after {
+                content: 'xxx';
+                font-size: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="isDiv">媒体特性</div>
+</body>
+</html>

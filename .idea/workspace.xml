@@ -5,11 +5,154 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca2e945f-5dc2-43f3-8010-708424134401" name="Default Changelist" comment="提交">
-      <change afterPath="$PROJECT_DIR$/06-HTML5/直播课程/雪花.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/img/nav-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/img/nav.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/img/pic.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/img/weibo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/img/weibo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/img/weixin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/img/weixin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/img/热点.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/8.数组/test2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-js/袁进/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/01-Bootstrap简介/bootstrap简介.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/02-响应式原理/01-响应式原理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/02-响应式原理/02-媒体类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/02-响应式原理/03-媒体特性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/02-响应式原理/04-逻辑运算符.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/02-响应式原理/05-媒体查询应用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/02-响应式原理/06-响应式例子.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/03-栅格系统-1/栅格系统-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/03-栅格系统-1/栅格系统-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/04-栅格系统-2/栅格系统-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/05-重置、排版、代码/01-重置.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/05-重置、排版、代码/02-排版.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/05-重置、排版、代码/03-代码.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/06-图片、表格、图文/01-图片.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/06-图片、表格、图文/02-表格.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/06-图片、表格、图文/03-图文区.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/06-图片、表格、图文/images/1140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/06-图片、表格、图文/images/540.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/06-图片、表格、图文/images/720.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/06-图片、表格、图文/images/960.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/06-图片、表格、图文/images/img_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/07-边框、颜色、显示、嵌入/01-边框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/07-边框、颜色、显示、嵌入/02-颜色.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/07-边框、颜色、显示、嵌入/03-显示.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/07-边框、颜色、显示、嵌入/04-嵌入.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/08-Flex/flex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/09-剩余工具集合/21-剩余工具集合.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/10-警告框、徽章、面包屑导航、按钮、按钮组/01-警告框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/10-警告框、徽章、面包屑导航、按钮、按钮组/02-徽章.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/10-警告框、徽章、面包屑导航、按钮、按钮组/03-面包屑导航.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/10-警告框、徽章、面包屑导航、按钮、按钮组/04-按钮.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/10-警告框、徽章、面包屑导航、按钮、按钮组/05-按钮组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/11-卡片/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/11-卡片/images/img_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/11-卡片/images/img_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/11-卡片/images/img_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/11-卡片/卡片.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/12-轮播图/images/pic_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/12-轮播图/images/pic_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/12-轮播图/images/pic_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/12-轮播图/轮播图.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/13-折叠面板/折叠面板.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/14-下拉菜单/下拉菜单.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/15-表单1/表单1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/16-表单2/表单2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/17-输入框组/输入框组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/18-超大屏幕与列表组/01-超大屏幕.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/18-超大屏幕与列表组/02-列表组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/19-模态框/模态框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/20-媒体对象/images/img_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/20-媒体对象/媒体对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/21-导航/导航.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/22-导航栏/导航栏.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/23-导航案例/导航案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/24-分页/分页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/25-提示框与提示工具/01-提示框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/25-提示框与提示工具/02-提示工具.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/26-进度条与滚动监听/01-进度条.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/26-进度条与滚动监听/02-滚动监听.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/27-旋转加载与推送消息框/01-旋转加载.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/27-旋转加载与推送消息框/02-推送消息框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/28-字体图标/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/28-字体图标/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/28-字体图标/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/28-字体图标/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/28-字体图标/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/28-字体图标/fonts/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/28-字体图标/fonts/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/28-字体图标/fonts/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/28-字体图标/fonts/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/28-字体图标/fonts/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/28-字体图标/js/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/28-字体图标/字体图标.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/29-Buttons库/Buttons库.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/29-Buttons库/css/buttons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/29-Buttons库/js/buttons.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/30-dateTimePicker/css/50-datetimepicker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/30-dateTimePicker/datetimepicker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/30-dateTimePicker/js/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/31-layDate/layDate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/31-layDate/laydate/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/31-layDate/laydate/theme/default/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/31-layDate/laydate/theme/default/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/31-layDate/laydate/theme/default/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/31-layDate/laydate/theme/default/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/31-layDate/laydate/theme/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/images/icpicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/images/img_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/images/img_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/images/img_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/images/kv1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/images/kv2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/images/kv3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/images/kv4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/images/logo-msr-new.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/images/scroll_img_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/images/scroll_img_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/images/scroll_img_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/images/scroll_img_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/images/tmall-card-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/images/tmall-card-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/images/tmall-card-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/images/tmall-card-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/32-实战项目-1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/images/icpicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/images/img_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/images/img_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/images/img_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/images/kv1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/images/kv2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/images/kv3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/images/kv4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/images/logo-msr-new.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/images/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/images/scroll_img_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/images/scroll_img_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/images/scroll_img_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/images/scroll_img_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/images/tmall-card-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/images/tmall-card-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/images/tmall-card-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/images/tmall-card-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bootstrap所需资料/33-实战项目-2/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/css/loginform.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/css/reset.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/img/nav_logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-HTML5/1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/loginform.html" beforeDir="false" afterPath="$PROJECT_DIR$/07-Bootstrap/02.栅格系统/01-栅格系统1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-js/袁进/4.流程控制/8.数组/test1.html" beforeDir="false" afterPath="$PROJECT_DIR$/02-js/袁进/4.流程控制/8.数组/test1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-js/袁进/javascript笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/02-js/袁进/javascript笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07-Bootstrap/Bootstrap笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/07-Bootstrap/Bootstrap笔记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +185,9 @@
     <setting file="file://$PROJECT_DIR$/01-html+css/3.HTML进阶/5.表单练习/css/reset.css" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/06-HTML5/html5笔记.md" root0="SKIP_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/02-js/袁进/javascript笔记.md" root0="FORCE_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/css/index.css" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/01-html+css/HTML+CSS笔记.md" root0="SKIP_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/07-Bootstrap/Bootstrap笔记.md" root0="SKIP_HIGHLIGHTING" root1="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1m2y6oHI1iFUs9VJ2NqmJmdAQYG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -60,20 +205,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/01-html+css/5.豆瓣首页项目实战/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/07-Bootstrap" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\StudyDemo\07-Bootstrap" />
       <recent name="D:\StudyDemo\01-html+css\5.豆瓣首页项目实战\css" />
       <recent name="D:\StudyDemo\01-html+css\5.豆瓣首页项目实战" />
       <recent name="D:\StudyDemo\01-html+css\4.css进阶\9.[扩展]参考线-深入理解字体" />
       <recent name="D:\StudyDemo\01-html+css\4.css进阶\7.[扩展]body背景" />
-      <recent name="D:\StudyDemo\01-html+css\4.css进阶\5.[扩展]浮动的细节规则" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\StudyDemo\07-Bootstrap" />
+      <recent name="D:\StudyDemo\07-Bootstrap\01.Bootstrap的基本应用" />
       <recent name="D:\StudyDemo\01-html+css\截图" />
       <recent name="D:\StudyDemo\06-HTML5\截图" />
     </key>
@@ -132,6 +280,27 @@
       <workItem from="1610672988518" duration="9117000" />
       <workItem from="1610876414898" duration="5618000" />
       <workItem from="1610933685171" duration="11815000" />
+      <workItem from="1610982636889" duration="4415000" />
+      <workItem from="1611018574399" duration="1332000" />
+      <workItem from="1611108605572" duration="7883000" />
+      <workItem from="1611151805563" duration="5837000" />
+      <workItem from="1611335965360" duration="1923000" />
+      <workItem from="1611555991692" duration="589000" />
+      <workItem from="1611557675162" duration="338000" />
+      <workItem from="1615171673272" duration="83000" />
+      <workItem from="1615171784960" duration="1155000" />
+      <workItem from="1616655662837" duration="59000" />
+      <workItem from="1616655757076" duration="115000" />
+      <workItem from="1616657469711" duration="1640000" />
+      <workItem from="1616664884048" duration="2406000" />
+      <workItem from="1616722583799" duration="9911000" />
+      <workItem from="1616738258096" duration="2634000" />
+      <workItem from="1616741493817" duration="7280000" />
+      <workItem from="1616808148921" duration="883000" />
+      <workItem from="1616914996102" duration="15888000" />
+      <workItem from="1616938044621" duration="1384000" />
+      <workItem from="1616981812174" duration="61000" />
+      <workItem from="1616981934022" duration="792000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1609225510659</created>
@@ -203,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610954550469</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="提交">
+      <created>1611117604331</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611117604331</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,9 +399,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="提交" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
