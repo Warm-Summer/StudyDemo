@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var obj = {
+			a: 1,
+			b: 2,
+			c: 3
+		};
+
+		console.log("a" in obj);//true,必须为字符串
+
+		var arr = [1, 26, 3, 4];
+		console.log(26 in arr);//false，判断的为属性名，而不是属性值
+	</script>
+</body>
+</html>

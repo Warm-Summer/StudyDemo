@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数组的应用</title>
+</head>
+<body>
+<script>
+    // 面试题
+    // 数组的本质：对象 （引用类型）
+    var arr1 = [3,5,7,9]; //arr1中存放的是地址
+    var arr2 = arr1; //arr2中存放的是地方
+    arr2[0] = 9;
+    console.log(arr1[0],arr2[0]);//9 9
+
+
+     // 如何复制(克隆，产生一个全新的对象)
+    var arr3 = [12, 9, 7, 45];
+    var arr4 = arr3.slice();
+    console.log(arr4);
+
+</script>
+</body>
+</html>

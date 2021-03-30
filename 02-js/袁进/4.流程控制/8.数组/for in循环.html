@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		var obj = {
+			a: 1,
+			b: 2,
+			c: 3
+		};
+
+		for (var prop in obj) {
+			console.log(prop);
+		}
+
+		// 利用该特点可以实现数组的遍历
+		var arr = [12, "abc", "bgc", , , ,34];
+
+		for (var index in arr) {
+			console.log(index, arr[index]);//输出的是数组的属性名，也就是数组的下标
+		}
+	</script>
+</body>
+</html>
