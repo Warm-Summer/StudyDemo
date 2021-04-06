@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>作业1</title>
+</head>
+<body>
+<script>
+    // 1. 提示用户输入数组的长度，以及数组每一项的值，然后输出该数组
+
+    var len = +prompt("请输入数组的长度");
+
+    if (isNaN(len) || len < 0) {
+        console.log("您输入的数组长度有误");
+    }else {
+        var arr = [];
+
+        for (var i = 0; i < len; i++) {
+            arr[i] = prompt("输入第"+(i + 1)+"项的数值");
+        }
+
+        console.log(arr);
+    }
+
+
+</script>
+</body>
+</html>

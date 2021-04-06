@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homework6</title>
+</head>
+<body>
+<script>
+    // 6. 定义一个用户数组，数组的每一项是一个用户对象，用户对象中包含账号和密码，随意初始化一些对象放入数组中。然后提示用户输入账号和密码，判断是否登录成功
+    var users = [{
+        loginId: "abc",
+        loginPwd: "123"
+    },
+        {
+            loginId: "abc1",
+            loginPwd: "1234"
+        },
+        {
+            loginId: "abc2",
+            loginPwd: "1235"
+        },
+        {
+            loginId: "abc3",
+            loginPwd: "1236"
+        }
+    ];
+
+    var loginId = prompt("请输入账号");
+    var loginPwd = prompt("请输入密码");
+
+    // 查找问题
+    var isFind = false;
+    for (var i = 0; i < users.length; i++) {
+        var u = users[i];
+        if (u.loginId === loginId && u.loginPwd === loginPwd) {
+            isFind = true;
+            break;
+        }
+    }
+
+    if (isFind) {
+        console.log("登录成功");
+    } else {
+        console.log("登录失败");
+    }
+
+</script>
+</body>
+</html>
